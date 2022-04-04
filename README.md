@@ -16,7 +16,7 @@ Send addresses once:<br>
 <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/screen.png" alt="erc20-tokens-multi-sender">
 
 
-https://algonetwork.github.io/Bee-Sender/
+https://algonetwork.github.io/Bee-Sender-v2/
 
 
 
@@ -24,4 +24,4 @@ https://algonetwork.github.io/Bee-Sender/
 Open js/config.js<br>
 Change the address to your own address,and you will recieve a half transfer fee when some user transfer their token on your website.<br>
 
-# You can deployed this source to any server without my approve.
+# You can deployed this source to any server and change the brand name without my approve.
