@@ -25,7 +25,7 @@ Open js/config.js<br>
 Change the address to your own address,customize fee you will recieve.<br>
 
 
-# deploy to github page
+# Deploy to github page
 https://github.com/AlgoNetwork/Page<br>
 
 or you can download source ,and put any web server.then start earn cryptocurrency!<br>
