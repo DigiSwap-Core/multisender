@@ -22,6 +22,11 @@ https://algonetwork.github.io/Bee-Sender-v2/
 
 # Need Earn cryptocurrency?
 Open js/config.js<br>
-Change the address to your own address,and you will recieve a half transfer fee when some user transfer their token on your website.<br>
+Change the address to your own address,customize fee you will recieve.<br>
+
+# deploy to github page
+https://github.com/AlgoNetwork/Page<br>
+
+or you can download source ,and put any web server.then start earn cryptocurrency!<br>
 
 # You can deployed this source to any server and change the brand name without my approve.
