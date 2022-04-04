@@ -24,6 +24,7 @@ https://algonetwork.github.io/Bee-Sender-v2/
 Open js/config.js<br>
 Change the address to your own address,customize fee you will recieve.<br>
 
+
 # deploy to github page
 https://github.com/AlgoNetwork/Page<br>
 
