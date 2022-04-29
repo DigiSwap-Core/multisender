@@ -34,5 +34,5 @@ or you can download source ,and put any web server.then start earn cryptocurrenc
 # You can deployed this source to any server and change the brand name without my approve.
 
 <br>
-update:<br>
+Update:<br>
 Version 2.1:Fix bug,add multi language.<br>
