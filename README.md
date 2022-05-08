@@ -29,7 +29,7 @@ Change the address to your own address,customize fee you will recieve.<br>
 # Deploy to github page
 https://github.com/AlgoNetwork/Page<br>
 
-or you can download source ,and put any web server.then start earn cryptocurrency!<br>
+or you can download source ,and put to any web server.then start earn cryptocurrency!<br>
 
 # You can deployed this source to any server and change the brand name without my approve.
 
