@@ -13,4 +13,4 @@ var FantomFee=0.12;
 var RopstenFee=0.00001;
 var HuobiFee=0.01;
 var AvalancheFee=0.001;
-var EthereumFee=0.0001;
+var EthereumFee=0.01;
