@@ -39,7 +39,7 @@ or you can download source ,and put to any web server.then start earn cryptocurr
 
 <br>
 
-# if you want support other Blockchain
+# if you want Bee Sender support other Blockchain
 Bee sender will gradually support other blockchains. It is more troublesome to go to the exchange to buy cryptocurrencies. If you need to deploy to the blockchain you need, please send some cryptocurrencies required for contract deployment to the following address, and leave a message, I will deploy it as soon as possible .<br><br>
 send to deployer:0xC340E120f7388Da2Fdd398792cf<br>55a934Fe7AFc3<br>
 leave message:https://github.com/AlgoNetwork/Bee-Sender-v2/issues<br>
