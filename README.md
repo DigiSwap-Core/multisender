@@ -22,8 +22,7 @@ Send addresses once:<br>
 
 https://algonetwork.github.io/Bee-Sender-v2/
 
-# Video tutorial
-https://youtu.be/HDyPbMbA-Og
+
 
 
 # Need Earn cryptocurrency?
