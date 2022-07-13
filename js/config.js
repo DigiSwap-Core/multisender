@@ -15,3 +15,4 @@ var HuobiFee=0.01;
 var AvalancheFee=0.1;
 var EthereumFee=0.01;
 var CronosFee=3;
+var PhoenixFee=0.1;
