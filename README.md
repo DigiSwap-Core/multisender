@@ -5,6 +5,8 @@ Ethereum,Binance,Avalanche,Huobi,Fantom,Cronos,Polygon and Ropsten testnetwork.<
 <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/1.png" width="25" height="25" alt="eth"> <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/56.png" width="25" height="25" alt="bnb"> <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/250.png" width="25" height="25" alt="ftm"> <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/137.png" width="25" height="25" alt="matic"> 
 <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/43114.png" width="25" height="25" alt="matic"> 
 <img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/25.png" width="25" height="25" alt="cronos"> 
+<img src="https://github.com/AlgoNetwork/Bee-Sender-v2/blob/main/img/13381.png" width="25" height="25" alt="Phoenix"> 
+
 <br>
 
 V2 add features:<br>
