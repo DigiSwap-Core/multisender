@@ -8,29 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-<!--Bee sender 2.1-->
-    <title  > Bee Sender-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.Ethereum,Binance,Polygon...</title>
+    <!--Digis Multi Sender 2.1-->
+    <title> Digis Multi Sender-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your
+        cost.Ethereum,Binance,Polygon...</title>
 
 
 
-<style type="text/css">
-  
-      .rightIcon{
-        width: : 30px;
-    }
+    <style type="text/css">
+        .rightIcon {
+            width: : 30px;
+        }
 
 
-    #loader1 {
-  width: 200px;
-  display: none;
-}
+        #loader1 {
+            width: 200px;
+            display: none;
+        }
 
-    #loader2 {
-  width: 200px;
-  display: none;
-}
-
-</style>
+        #loader2 {
+            width: 200px;
+            display: none;
+        }
+    </style>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -53,10 +52,10 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <img src="img/digis.png" width="48" height="48">
                 </div>
-                <div class="sidebar-brand-text mx-3">Bee Sender <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Digiswap MultiSend</div>
             </a>
 
             <!-- Divider -->
@@ -68,106 +67,52 @@
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Multi Sender</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://digiswap-core.github.io/bep20-generator/">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Bep20 Generator</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://digiswap-core.github.io/erc20-generator/">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Erc20 Generator</span></a>
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
-
-            <!-- Heading 
-            <div class="sidebar-heading">
-                Interface
-            </div>
--->
-            <!-- Nav Item - Pages Collapse Menu 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                    </div>
-                </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://digiswap.finance/">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Digiswap Website</span></a>
             </li>
--->
-            <!-- Nav Item - Utilities Collapse Menu 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
-                    </div>
-                </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://dex.digiswap.finance/">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Digiswap DEX</span></a>
             </li>
--->
-            <!-- Divider 
+            <li class="nav-item active">
+                <a class="nav-link" href="https://cex.digiswap.finance/">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Digiswap CEX</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://marketplace.digiswap.finance/">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>NFT MarketPlace</span></a>
+            </li>
+            <!-- Divider -->
             <hr class="sidebar-divider">
--->
-            <!-- Heading 
-            <div class="sidebar-heading">
-                Addons
-            </div>
--->
-            <!-- Nav Item - Pages Collapse Menu 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
-                    </div>
-                </div>
-            </li>
--->
-            <!-- Nav Item - Charts 
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
--->
-            <!-- Nav Item - Tables 
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
-            </li>
--->
-            <!-- Divider 
-            <hr class="sidebar-divider d-none d-md-block">
--->
+
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
             <!-- Sidebar Message -->
-            <div class="sidebar-card d-none d-lg-flex">
+            <div class="sidebar-card d-none d-lg-flex" style="margin-top: 16rem;">
                 <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
                 <!--  <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>-->
-                <a class="btn btn-success btn-sm" href="https://github.com/AlgoNetwork/Bee-Sender-v2">Github for more!</a>
+                <a class="btn btn-success btn-sm" href="https://github.com/DigiSwap-Core">Github for more!</a>
             </div>
 
         </ul>
@@ -230,209 +175,35 @@
                             </div>
                         </li>
 
-                        <!-- Nav Item - Alerts 
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
-                                <!-- Counter - Alerts 
-                                <span class="badge badge-danger badge-counter">3+</span>
-                            </a>-->
-                            <!-- Dropdown - Alerts 
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="alertsDropdown">
-                                <h6 class="dropdown-header">
-                                    Alerts Center
-                                </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-primary">
-                                            <i class="fas fa-file-alt text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 12, 2019</div>
-                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fas fa-donate text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 7, 2019</div>
-                                        $290.29 has been deposited into your account!
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-warning">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 2, 2019</div>
-                                        Spending Alert: We've noticed unusually high spending for your account.
-                                    </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-                            </div>
-                        </li>
--->
-                        <!-- Nav Item - Messages 
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-envelope fa-fw"></i>
-                                <!-- Counter - Messages 
-                                <span class="badge badge-danger badge-counter">7</span>
-                            </a>-->
-                            <!-- Dropdown - Messages 
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="messagesDropdown">
-                                <h6 class="dropdown-header">
-                                    Message Center
-                                </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
-                                            alt="...">
-                                        <div class="status-indicator bg-success"></div>
-                                    </div>
-                                    <div class="font-weight-bold">
-                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                                            problem I've been having.</div>
-                                        <div class="small text-gray-500">Emily Fowler · 58m</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
-                                        <div class="status-indicator"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">I have the photos that you ordered last month, how
-                                            would you like them sent to you?</div>
-                                        <div class="small text-gray-500">Jae Chun · 1d</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
-                                            alt="...">
-                                        <div class="status-indicator bg-warning"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">Last month's report looks great, I am very happy with
-                                            the progress so far, keep up the good work!</div>
-                                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
-                                            alt="...">
-                                        <div class="status-indicator bg-success"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone
-                                            told me that people say this to all dogs, even if they aren't good...</div>
-                                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
-                            </div>
-                        </li>
--->
+                        <!-- Network Selector -->
+                        <div class="text-center" style="margin-top:1.2rem; margin-right:0.5rem">
+                            <img id="SelectISendIMG" width="33" height="33"></img>
+                        </div>
+                        <div class="text-center" style="margin-top:1rem; margin-right:1rem">
+                            <select class="custom-select " id="SelectISend" onchange="ISendChange( )">
 
-<!-- language -->
-                        <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                
-                                
-                                <img class="img-profile rounded-circle"
-                                    src="img/lang.png">
-                            </a>
-                            
-                            <!--
-<button id="en" class="translate">English</button>
-<button id="zh" class="translate">简体中文</button>
-<button id="ru" class="translate">русский</button> 
-<button id="kr" class="translate">한국어</button> 
-<button id="fa" class="translate">فارسی</button> 
-<button id="jp" class="translate">日本語</button> 
-<button id="th" class="translate">ไทย</button> 
-                            -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="userDropdown">
-                                <a id="en" class="dropdown-item translate" href="#">
-                                    <i  class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    English
-                                </a>
-                                <a id="zh"  class="dropdown-item translate" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400 translate"></i>
-                                   简体中文
-                                </a>
-
-                                 
- 
-
-								<a id="ru"  class="dropdown-item translate" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400 translate"></i>
-                                  русский
-                                </a>
-                                <a id="kr"  class="dropdown-item translate" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400 translate"></i>
-                                  한국어
-                                </a>
-                           <!--     <div class="dropdown-divider"></div>-->
-                       
-                            </div>
-                              
-                        </li>
-<!-- language -->
-
-
+                                <option value="1" class="lang" key="Ethereum">Ethereum</option>
+                                <option value="56" class="lang" key="Binance">Binance</option>
+                                <option value="128" class="lang" key="Huobi">Huobi</option>
+                                <option value="137">Polygon </option>
+                                <option value="250">Fantom</option>
+                                <option value="43114">Avalanche</option>
+                                <option value="25">Cronos</option>
+                                <option value="13381">Phoenix</option>
+                                <option value="3">Ropsten Testnet Chain</option>
+                            </select>
+                            <small class="text-muted" id="SendFeeText"> </a></small>
+                        </div>
+                        <!-- Network Selector end-->
                         <div class="topbar-divider d-none d-sm-block"></div>
-
-
-
-
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span  id='CurrentAddress' class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/metamask.png">
+                                <span id='CurrentAddress' class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
+                                <img class="img-profile rounded-circle" src="img/metamask.png">
                             </a>
-                            <!-- Dropdown - User Information
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
-                                </a>
-                            </div>
-                             -->
                         </li>
 
                     </ul>
@@ -542,207 +313,170 @@
                     <div class="row">
 
                         <!-- Area Chart -->
-                        
 
-                         
+
+
                     </div>
 
                     <!-- Content Row -->
                     <div class="row">
 
                         <!-- Content Column -->
-                       
 
-                        <div class="col-lg-12 mb-4">
+
+                        <div class="col-lg-6 mb-4" style="margin: auto">
 
                             <!-- Illustrations -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary lang" key="Token MultiSender">Token MultiSender</h6>
+                                    <h4 class="m-0 font-weight-bold text-primary lang" key="Token MultiSender">Digis
+                                        Token MultiSender</h4>
+
                                 </div>
                                 <div class="card-body">
-                                    <div class="text-center">
-                                        <img  src="img/bee.png" width="33" height="33">
-                                    </div>
 
-
-
-									<div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Bee Sender</h1>
-                                    </div>
-                                    <div class="text-center">
-                                     
-                                        <h1 class="h6 text-gray-900 mb-4 lang" key="SiteTitle">Pack and send Multi transfer in one Transaction</h1>
- 
-
-                                    </div>
- <div class="card-body">
-<div class="text-center">
-
-    <img id="SelectISendIMG"  width="33" height="33"  ></img>
-
-<br>
-
-  <select class="custom-select " id="SelectISend" onchange="ISendChange( )">
-  
-   <option value="1"  class="lang" key="Ethereum">Ethereum</option>
-  <option value="56"  class="lang" key="Binance">Binance</option>
-  <option value="128" class="lang" key="Huobi">Huobi</option> 
-  <option value="137">Polygon </option> 
-  <option value="250">Fantom</option> 
-  <option value="43114">Avalanche</option>  
-   <option value="25">Cronos</option>  
-   <option value="13381">Phoenix</option>  
-
-  <option value="3" >Ropsten Testnet Chain</option> 
-
-  </select>
-
-<small class="text-muted" id="SendFeeText" >   </a></small>
-									<!--
-									<div class="small mb-1">Choose your Blockchain:</div>
-                                    <div class="dropdown mb-4">
-                                        <button class="btn btn-primary dropdown-toggle" type="button"
-                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="false">
-                                            Binance
-                                        </button>
-                                        <div class="dropdown-menu animated--fade-in"
-                                            aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Binance</a>
-                                            <a class="dropdown-item" href="#">Huobi</a>
-                                            <a class="dropdown-item" href="#">Polygon</a>
-                                        </div>
-                                    </div>
-                                    -->
-</div></div>
-<br> 
-                                    <form  >
+                                    <br>
+                                    <form>
                                         <div class="form-group">
-                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 lang" key="Token Address">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 lang"
+                                                key="Token Address">
                                                 Token Address</div>
-                                            <input class="form-control form-control-user"
-                                                type="text" id="TokenAddress" oninput="ActiveTokenContract()" aria-describedby="emailHelp"
+                                            <input class="form-control form-control-user" type="text" id="TokenAddress"
+                                                oninput="ActiveTokenContract()" aria-describedby="emailHelp"
                                                 placeholder="for example:0x122..aef">
-                                                <small id="balanceOf" class="text-muted"  ></small>
-  <center>                                              <br> 
-<img id="loader2" src="loading.gif"></img>  
-</center>  
+                                            <small id="balanceOf" class="text-muted"></small>
+                                            <center> <br>
+                                                <img id="loader2" src="loading.gif"></img>
+                                            </center>
 
- <center>  
-   <button id="approveThisButton" onclick="approveThis(contractAdress);return false;" style="display: none;" class="btn btn-primary">Approve</button> 
-   </center> 
-<br>
+                                            <center>
+                                                <button id="approveThisButton"
+                                                    onclick="approveThis(contractAdress);return false;"
+                                                    style="display: none;" class="btn btn-primary">Approve</button>
+                                            </center>
+                                            <br>
                                         </div>
 
 
 
- 
 
-       <div class="radio-buttons-choice" id="AddressAndAmount">
-        <input type="radio" name="SameAmount" id="SendSameAmountRadio" onclick="SendType(name)">
-        <!--<img src='img/high.png' width="33" height="33"  > --> 
-        <label class="lang" key="Send same amount to each address"  >Send same amount to each address</label><br>
 
-        <input type="radio" name="UploadCSV" id="SendDiffAmountRadio" onclick="SendType(name)">
-       <!--<img src='img/low.png' width="33" height="33"  > --> 
-        <label class="lang" key="Use CSV file">Use CSV file</label>
-    </div>
- 
- 
+                                        <div class="radio-buttons-choice" id="AddressAndAmount">
+                                            <input type="radio" name="SameAmount" id="SendSameAmountRadio"
+                                                onclick="SendType(name)">
+                                            <!--<img src='img/high.png' width="33" height="33"  > -->
+                                            <label class="lang" key="Send same amount to each address">Send same amount
+                                                to each address</label><br>
 
-<div id="SendSameAmountDiv">
-
-                                        <div class="form-group">
-                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 lang" key="Send amount">
-                                                Send amount</div>
-                                            <input  class="form-control form-control-user"
-                                                type="text" id="MultiSendAmount"  placeholder="Send Amount per Address:1.01,5,30....">
+                                            <input type="radio" name="UploadCSV" id="SendDiffAmountRadio"
+                                                onclick="SendType(name)">
+                                            <!--<img src='img/low.png' width="33" height="33"  > -->
+                                            <label class="lang" key="Use CSV file">Use CSV file</label>
                                         </div>
 
-                                        <div class="form-group">
-                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 lang" key="Address list(1-500 addresses)">
-                                                Address list(1-500 addresses)</div>
-                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line. " rows="10"></textarea>
+
+
+                                        <div id="SendSameAmountDiv">
+
+                                            <div class="form-group">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 lang"
+                                                    key="Send amount">
+                                                    Send amount</div>
+                                                <input class="form-control form-control-user" type="text"
+                                                    id="MultiSendAmount"
+                                                    placeholder="Send Amount per Address:1.01,5,30....">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 lang"
+                                                    key="Address list(1-500 addresses)">
+                                                    Address list(1-500 addresses)</div>
+                                                <textarea id="AddressArea" class="form-control"
+                                                    placeholder="Address per line. " rows="8"></textarea>
+                                            </div>
                                         </div>
- </div>
 
-<div id="SendDiffAmountDiv">
-
+                                        <div id="SendDiffAmountDiv">
 
 
-<input type="file" id="fileUpload" />
-<a  href="example.csv">Download example csv</a>
 
-<!--
+                                            <input type="file" id="fileUpload" />
+                                            <a href="example.csv">Download example csv</a>
+
+                                            <!--
 <input type="button" id="upload" value="Show Content" onclick="Upload()" />
  -->
-<!--
+                                            <!--
 <hr />
 -->
 
- 
- </div>
-<br>
+
+                                        </div>
+                                        <br>
 
 
 
- <!--style="color:white"-->
+                                        <!--style="color:white"-->
 
-<center>
+                                        <center>
 
-<img id="loader1" src="loading.gif"></img>
- <!--<div class=text-white-50" id="Tips" ></div>-->
-
-
-<div class="card bg-secondary text-white shadow" id="Tips">
-
-</div>
+                                            <img id="loader1" src="loading.gif"></img>
+                                            <!--<div class=text-white-50" id="Tips" ></div>-->
 
 
+                                            <div class="card bg-secondary text-white shadow" id="Tips">
 
-<div id="PriceSuggest">  </div>
-
-</center>
-
-<center><div id="transactionHashLabel"></div></center> 
-
-
-<br>
- 
-       <div class="radio-buttons-choice" id="container-3-radio-buttons-choice">
-        <input type="radio" name="Medium" id="one-variable-equations" onclick="checkRadio(name)">
-        <img src='img/high.png' width="33" height="33"  > 
-        <label class="lang" key="Medium gas fee">Medium gas fee</label><br>
-
-        <input type="radio" name="low" id="multiple-variable-equations" onclick="checkRadio(name)">
-        <img src='img/low.png' width="33" height="33"  > 
-        <label class="lang" key="Low gas fee">Low gas fee</label>
-    </div>
+                                            </div>
 
 
 
+                                            <div id="PriceSuggest"> </div>
 
-                                       
- <center><button id="MultiSendButton" type="button"  style="display: none;"  class="btn btn-primary">Multi Send</button> </center>  
+                                        </center>
 
-
-<br>
-
-<div id="dvCSV">
-</div>
-
-                                        
- </form>
-                                 
+                                        <center>
+                                            <div id="transactionHashLabel"></div>
+                                        </center>
 
 
-                                    
+                                        <br>
+
+                                        <div class="radio-buttons-choice" id="container-3-radio-buttons-choice">
+                                            <input type="radio" name="Medium" id="one-variable-equations"
+                                                onclick="checkRadio(name)">
+                                            <img src='img/high.png' width="33" height="33">
+                                            <label class="lang" key="Medium gas fee">Medium gas fee</label><br>
+
+                                            <input type="radio" name="low" id="multiple-variable-equations"
+                                                onclick="checkRadio(name)">
+                                            <img src='img/low.png' width="33" height="33">
+                                            <label class="lang" key="Low gas fee">Low gas fee</label>
+                                        </div>
 
 
-                                  
-                                  <!-- <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
-                                        unDraw &rarr;</a>--> 
+
+
+
+                                        <center><button id="MultiSendButton" type="button" style="display: none;"
+                                                class="btn btn-primary">Multi Send</button> </center>
+
+
+                                        <br>
+
+                                        <div id="dvCSV">
+                                        </div>
+
+
+                                    </form>
+
+
+
+
+
+
+
+                                    <!-- <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
+                                        unDraw &rarr;</a>-->
                                 </div>
                             </div>
 
@@ -769,8 +503,8 @@
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Bee Sender 2022</span>
+                    <div class="copyright text-center my-auto" style="text-align: top !important;">
+                        <span>Copyright &copy; DigiSwap Finance® 2022</span>
                     </div>
                 </div>
             </footer>
@@ -808,7 +542,7 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-   <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
@@ -826,127 +560,127 @@
  -->
 
 
-   <script src="js/all.min.js"   crossorigin="anonymous"></script>
+    <script src="js/all.min.js" crossorigin="anonymous"></script>
     <script src="js/contract.js"></script>
     <script src="js/token.js"></script>
-     <script src="js/config.js"></script>
-      <script src="js/global.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/global.js"></script>
     <!--https://code.jquery.com/jquery-3.5.1.slim.min.js-->
     <!--<script src="js/jquery-3.5.1.slim.min.js"    integrity=""></script>-->
-    <script src="js/popper.min.js"  integrity=""></script>
+    <script src="js/popper.min.js" integrity=""></script>
 
     <!--https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js-->
     <!--<script src="js/bootstrap.min.js"       integrity=""     ></script>-->
- 
 
-     <script src='js/bignumber.js'></script>
-<script src="js/web3.min.js"></script>
+
+    <script src='js/bignumber.js'></script>
+    <script src="js/web3.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>-->
-  
-
-<script type="text/javascript">
-    var arrLang = {
-      'en': {
-        'SiteTitle': 'Bee Sender-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.',
-        'Ethereum': 'Ethereum',
-        'Binance': 'Binance',
-        'Huobi': 'Huobi',
-        'Token Address': 'Token Address',
-        'Send same amount to each address': 'Send same amount to each address',
-        'Use CSV file': 'Use CSV file',
-        'Send amount': 'Send amount',
-        'Address list(1-500 addresses)': 'Address list(1-500 addresses)',
-        'Medium gas fee': 'Medium gas fee',
-        'Low gas fee': 'Low gas fee',
-        'Token MultiSender': 'Token Multi Sender'
-      },
-      'zh': {
-        'SiteTitle': 'Bee Sender-同时发送代币给多个地址',
-        'Ethereum': '以太坊链',
-        'Binance': '币安链',
-        'Huobi': '火币链',
-        'Token Address': '代币地址',
-        'Send same amount to each address': '发送相同数量的代币到每个地址',
-        'Use CSV file': '使用CSV文件',
-        'Send amount': '发送数量',
-        'Address list(1-500 addresses)': '地址列表(1-500个地址,一行一个地址)',
-        'Medium gas fee': '中等Gas费',
-        'Low gas fee': '低Gas费',
-        'Token MultiSender': '批量发送代币'
-      },
-
-      'ru': {
-        'SiteTitle': 'Bee Sender-ERC20 Token Multi Sender. Упакуйте мультиперевод в одну транзакцию и сэкономьте на затратах.',
-        'Ethereum': 'Ethereum',
-        'Binance': 'Binance',
-        'Huobi': 'Huobi',
-        'Token Address': 'Адрес токена',
-        'Send same amount to each address': 'Отправить одинаковую сумму на каждый адрес',
-        'Use CSV file': 'Использовать CSV-файл',
-        'Send amount': 'Отправить сумму',
-        'Address list(1-500 addresses)': 'Список адресов (1-500 адресов)',
-        'Medium gas fee': 'Плата за средний газ',
-        'Low gas fee': 'Низкая плата за газ',
-        'Token MultiSender': 'Токен MultiSender'
-      },
 
 
-      'kr': {
-        'SiteTitle': 'Bee Sender-ERC20 Token Multi Sender.Packer는 하나의 트랜잭션으로 다중 전송을 수행하고 비용을 절약합니다.',
-        'Ethereum': 'Ethereum',
-        'Binance': 'Binance',
-        'Huobi': 'Huobi',
-        'Token Address': '토큰 주소',
-        'Send same amount to each address': '각 주소로 동일한 금액 보내기',
-        'Use CSV file': 'CSV 파일 사용',
-        'Send amount': '송금 금액',
-        'Address list(1-500 addresses)': '주소 목록(1-500 주소)',
-        'Medium gas fee': '중간 가스 요금',
-        'Low gas fee': '낮은 가스 요금',
-        'Token MultiSender': '토큰 다중 전송자'
-      },
-      'fa': {
- 
-      },
+    <script type="text/javascript">
+        var arrLang = {
+            'en': {
+                'SiteTitle': 'Digis Multi Sender-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.',
+                'Ethereum': 'Ethereum',
+                'Binance': 'Binance',
+                'Huobi': 'Huobi',
+                'Token Address': 'Token Address',
+                'Send same amount to each address': 'Send same amount to each address',
+                'Use CSV file': 'Use CSV file',
+                'Send amount': 'Send amount',
+                'Address list(1-500 addresses)': 'Address list(1-500 addresses)',
+                'Medium gas fee': 'Medium gas fee',
+                'Low gas fee': 'Low gas fee',
+                'Token MultiSender': 'Token Multi Sender'
+            },
+            'zh': {
+                'SiteTitle': 'Digis Multi Sender-同时发送代币给多个地址',
+                'Ethereum': '以太坊链',
+                'Binance': '币安链',
+                'Huobi': '火币链',
+                'Token Address': '代币地址',
+                'Send same amount to each address': '发送相同数量的代币到每个地址',
+                'Use CSV file': '使用CSV文件',
+                'Send amount': '发送数量',
+                'Address list(1-500 addresses)': '地址列表(1-500个地址,一行一个地址)',
+                'Medium gas fee': '中等Gas费',
+                'Low gas fee': '低Gas费',
+                'Token MultiSender': '批量发送代币'
+            },
 
-      'jp': {
- 
-      },
+            'ru': {
+                'SiteTitle': 'Digis Multi Sender-ERC20 Token Multi Sender. Упакуйте мультиперевод в одну транзакцию и сэкономьте на затратах.',
+                'Ethereum': 'Ethereum',
+                'Binance': 'Binance',
+                'Huobi': 'Huobi',
+                'Token Address': 'Адрес токена',
+                'Send same amount to each address': 'Отправить одинаковую сумму на каждый адрес',
+                'Use CSV file': 'Использовать CSV-файл',
+                'Send amount': 'Отправить сумму',
+                'Address list(1-500 addresses)': 'Список адресов (1-500 адресов)',
+                'Medium gas fee': 'Плата за средний газ',
+                'Low gas fee': 'Низкая плата за газ',
+                'Token MultiSender': 'Токен MultiSender'
+            },
 
-      'th': {
- 
-      }
 
-    };
+            'kr': {
+                'SiteTitle': 'Digis Multi Sender-ERC20 Token Multi Sender.Packer는 하나의 트랜잭션으로 다중 전송을 수행하고 비용을 절약합니다.',
+                'Ethereum': 'Ethereum',
+                'Binance': 'Binance',
+                'Huobi': 'Huobi',
+                'Token Address': '토큰 주소',
+                'Send same amount to each address': '각 주소로 동일한 금액 보내기',
+                'Use CSV file': 'CSV 파일 사용',
+                'Send amount': '송금 금액',
+                'Address list(1-500 addresses)': '주소 목록(1-500 주소)',
+                'Medium gas fee': '중간 가스 요금',
+                'Low gas fee': '낮은 가스 요금',
+                'Token MultiSender': '토큰 다중 전송자'
+            },
+            'fa': {
 
-    // Process translation
-    $(function() {
-      $('.translate').click(function() {
-        var lang = $(this).attr('id');
-console.log("change language..");
-        $('.lang').each(function(index, item) {
-          $(this).text(arrLang[lang][$(this).attr('key')]);
+            },
+
+            'jp': {
+
+            },
+
+            'th': {
+
+            }
+
+        };
+
+        // Process translation
+        $(function () {
+            $('.translate').click(function () {
+                var lang = $(this).attr('id');
+                console.log("change language..");
+                $('.lang').each(function (index, item) {
+                    $(this).text(arrLang[lang][$(this).attr('key')]);
+                });
+            });
         });
-      });
-    });
-  </script>
+    </script>
 
 
 
-<script>
- 
+    <script>
 
 
 
-var _0x141eed=_0x2afa;(function(_0x2a3b1c,_0x116b9f){var _0x3c7193=_0x2afa,_0x2572c7=_0x2a3b1c();while(!![]){try{var _0x289d9d=-parseInt(_0x3c7193(0x1cb))/0x1+parseInt(_0x3c7193(0x14d))/0x2*(parseInt(_0x3c7193(0x172))/0x3)+parseInt(_0x3c7193(0x191))/0x4*(-parseInt(_0x3c7193(0x15a))/0x5)+-parseInt(_0x3c7193(0x1c7))/0x6+parseInt(_0x3c7193(0x24c))/0x7+-parseInt(_0x3c7193(0x1d5))/0x8*(-parseInt(_0x3c7193(0x25e))/0x9)+parseInt(_0x3c7193(0x1df))/0xa*(parseInt(_0x3c7193(0x21e))/0xb);if(_0x289d9d===_0x116b9f)break;else _0x2572c7['push'](_0x2572c7['shift']());}catch(_0x3edf76){_0x2572c7['push'](_0x2572c7['shift']());}}}(_0x2323,0xed709),console[_0x141eed(0x16e)](_0x141eed(0x258),FeeReciever),console[_0x141eed(0x16e)](_0x141eed(0x25b)));function _0x2afa(_0x230cca,_0x37ece4){var _0x2323d3=_0x2323();return _0x2afa=function(_0x2afae8,_0x3b4c7b){_0x2afae8=_0x2afae8-0x140;var _0x1f81a0=_0x2323d3[_0x2afae8];return _0x1f81a0;},_0x2afa(_0x230cca,_0x37ece4);}var BeeFee=0.0123456,binanceLimit,polygonLimit,fantomLimit,SendFee,MyTokenBalance,myContract,TransferContract,TokenContract,PriceResult,CurrentTokenDecimals=0x0,EthereumScan=_0x141eed(0x1db),BinanceScan=_0x141eed(0x1a7),PolygonScan=_0x141eed(0x25d),FantomScan=_0x141eed(0x1d1),CronosScan=_0x141eed(0x1c9),AvalancheScan='https://snowtrace.io/tx/',PhoenixScan=_0x141eed(0x168),RopstenScan=_0x141eed(0x1ae);console['log'](_0x141eed(0x1eb));var TokenContractAddress,BlockchainScan,RopstenTokenAddress=_0x141eed(0x200),KovanTokenAddress=_0x141eed(0x14f),binanceTokenAddress=_0x141eed(0x21a),polygonTokenAddress=_0x141eed(0x213),fantomTokenAddress=_0x141eed(0x1ec),contractAdress,RopstenAddress=_0x141eed(0x16a),KovanAddress=_0x141eed(0x20e),BinanceTestContractAddress=_0x141eed(0x169),EthereumContractAddress=_0x141eed(0x160),HuobiContractAddress=_0x141eed(0x1a8),BinanceContractAddress='0xA869b575445ea5398E3c0c3C812C32eb271dD6F4',PolygonContractAddress=_0x141eed(0x20c),FantomContractAddress=_0x141eed(0x20c),AvalancheContractAddress='0x8f60b2d0A509AA0dCfE4130d8b9818d4fbF01153',CronosContractAddress='0x5B2643DB5fA7894e6630c8Ab56c828E9Ca186e0C',PhoenixContractAddress=_0x141eed(0x247),Isend,Iwant;async function CheckMetamaskConnection(){var _0x42a0b7=_0x141eed;if(window[_0x42a0b7(0x17d)]){window[_0x42a0b7(0x1b5)]=new Web3(window[_0x42a0b7(0x17d)]);try{return await ethereum[_0x42a0b7(0x1be)](),window[_0x42a0b7(0x17d)]['on'](_0x42a0b7(0x171),function(_0x523de5){var _0x5670a8=_0x42a0b7;console[_0x5670a8(0x16e)]('accountsChanges',_0x523de5),window[_0x5670a8(0x170)][_0x5670a8(0x1f1)]();}),window[_0x42a0b7(0x17d)]['on'](_0x42a0b7(0x15b),function(_0x3973c0){var _0x36c30e=_0x42a0b7;console[_0x36c30e(0x16e)](_0x36c30e(0x15b),_0x3973c0),window[_0x36c30e(0x170)][_0x36c30e(0x1f1)]();}),!![];}catch(_0x137642){return![];}}else return window[_0x42a0b7(0x1b5)]?(window[_0x42a0b7(0x1b5)]=new Web3(web3[_0x42a0b7(0x22b)]),!![]):(console['log']('Non-Ethereum\x20browser\x20detected.\x20You\x20should\x20consider\x20trying\x20MetaMask!'),![]);}$(document)[_0x141eed(0x153)](async function(){var _0x28b6b3=_0x141eed,_0x16659e=await CheckMetamaskConnection();if(_0x16659e){var _0x300272=!![];document[_0x28b6b3(0x218)](_0x28b6b3(0x243))[_0x28b6b3(0x174)]=!![],document['getElementById']('SendSameAmountRadio')[_0x28b6b3(0x174)]=!![],$('#SendDiffAmountDiv')['hide']();var _0x5e2a53=await web3[_0x28b6b3(0x24e)][_0x28b6b3(0x18b)][_0x28b6b3(0x249)]();console['log'](_0x5e2a53);var _0x440496=![];switch(_0x5e2a53){case 0x1:console['log'](_0x28b6b3(0x246)),document[_0x28b6b3(0x218)]('SelectISend')[_0x28b6b3(0x143)]=0x1,document[_0x28b6b3(0x218)]('SelectISendIMG')[_0x28b6b3(0x1cd)]=_0x28b6b3(0x25f)+String(0x1)+'.png',contractAdress=EthereumContractAddress,BlockchainScan=EthereumScan,BeeFee=EthereumFee,_0x440496=!![];break;case 0x2:console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20deprecated\x20Morden\x20test\x20network.');break;case 0x3:console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20ropsten\x20test\x20network.'),TokenContractAddress=RopstenTokenAddress,contractAdress=RopstenAddress,document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)]=0x3,document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))[_0x28b6b3(0x1cd)]=_0x28b6b3(0x25f)+String(0x3)+'.png',BlockchainScan=RopstenScan,_0x440496=!![],BeeFee=RopstenFee;break;case 0x19:console['log'](_0x28b6b3(0x1a9)),TokenContractAddress=polygonTokenAddress,contractAdress=CronosContractAddress,document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)]=0x19,document['getElementById']('SelectISendIMG')[_0x28b6b3(0x1cd)]=_0x28b6b3(0x25f)+String(0x19)+_0x28b6b3(0x20b),BlockchainScan=CronosScan,BeeFee=CronosFee,_0x440496=!![];break;case 0x2a:console['log'](_0x28b6b3(0x1c8)),TokenContractAddress=KovanTokenAddress,contractAdress=KovanAddress,document['getElementById'](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)]=0x2a;break;case 0x38:console[_0x28b6b3(0x16e)](_0x28b6b3(0x211)),TokenContractAddress=binanceTokenAddress,contractAdress=BinanceContractAddress,document['getElementById'](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)]=0x38,document[_0x28b6b3(0x218)]('SelectISendIMG')[_0x28b6b3(0x1cd)]=_0x28b6b3(0x25f)+String(0x38)+_0x28b6b3(0x20b),BlockchainScan=BinanceScan,_0x440496=!![],BeeFee=BinanceFee;break;case 0x61:contractAdress=BinanceTestContractAddress,console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20BSC\x20test\x20network.');break;case 0x6c:console['log'](_0x28b6b3(0x1a4));break;case 0x80:contractAdress=HuobiContractAddress,document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))['value']=0x80,document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))['src']=_0x28b6b3(0x25f)+String(0x80)+_0x28b6b3(0x20b),console[_0x28b6b3(0x16e)](_0x28b6b3(0x207)),BeeFee=HuobiFee,_0x440496=!![];break;case 0x89:TokenContractAddress=polygonTokenAddress,contractAdress=PolygonContractAddress,document['getElementById'](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)]=0x89,document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))[_0x28b6b3(0x1cd)]=_0x28b6b3(0x25f)+String(0x89)+_0x28b6b3(0x20b),console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20Polygon\x20\x20network.'),BlockchainScan=PolygonScan,BeeFee=PolygonFee,_0x440496=!![];break;case 0xfa:TokenContractAddress=fantomTokenAddress,contractAdress=FantomContractAddress,document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))['value']=0xfa,document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))[_0x28b6b3(0x1cd)]=_0x28b6b3(0x25f)+String(0xfa)+_0x28b6b3(0x20b),console[_0x28b6b3(0x16e)](_0x28b6b3(0x17e)),BlockchainScan=FantomScan,BeeFee=FantomFee,_0x440496=!![];break;case 0x3445:console['log'](_0x28b6b3(0x23e)),contractAdress=PhoenixContractAddress,document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)]=0x3445,document['getElementById'](_0x28b6b3(0x1e2))['src']=_0x28b6b3(0x25f)+String(0x3445)+'.png',BlockchainScan=PhoenixScan,BeeFee=PhoenixFee,_0x440496=!![];break;case 0xa86a:TokenContractAddress=fantomTokenAddress,contractAdress=AvalancheContractAddress,document[_0x28b6b3(0x218)]('SelectISend')['value']=0xa86a,document[_0x28b6b3(0x218)]('SelectISendIMG')[_0x28b6b3(0x1cd)]='img/'+String(0xa86a)+_0x28b6b3(0x20b),console[_0x28b6b3(0x16e)](_0x28b6b3(0x257)),BlockchainScan=AvalancheScan,BeeFee=AvalancheFee,_0x440496=!![];break;default:console[_0x28b6b3(0x16e)](_0x28b6b3(0x1ea));}if(!_0x440496){$(_0x28b6b3(0x259))[_0x28b6b3(0x1e5)]('Current\x20Blochchain\x20Network\x20is\x20not\x20support,Switch\x20to\x20Binance,Polygon\x20or\x20other\x20Blockchain\x20please.'),console[_0x28b6b3(0x16e)](_0x28b6b3(0x1a2));throw new Error('Not\x20in\x20range,Exit....');}var _0x2ba8c1=web3['currentProvider']['selectedAddress'],_0x20ac9b=web3[_0x28b6b3(0x22b)]['selectedAddress'],_0x4bf8a1=web3[_0x28b6b3(0x22b)]['selectedAddress']['length']-0x4,_0x4d3a4f=_0x20ac9b[_0x28b6b3(0x180)](0x0,0x6),_0x45ca6b=_0x20ac9b['substring'](_0x4bf8a1,web3[_0x28b6b3(0x22b)]['selectedAddress'][_0x28b6b3(0x15c)]),_0x57e67b=_0x4d3a4f+_0x28b6b3(0x141)+_0x45ca6b;$(_0x28b6b3(0x145))[_0x28b6b3(0x1e5)](_0x57e67b),myContract=await new web3[(_0x28b6b3(0x24e))]['Contract'](SmartContractABI,contractAdress,{'from':web3[_0x28b6b3(0x22b)]['selectedAddress']}),SendFee=await myContract[_0x28b6b3(0x234)][_0x28b6b3(0x216)]()[_0x28b6b3(0x156)](),console[_0x28b6b3(0x16e)](_0x28b6b3(0x202),SendFee),console['log'](_0x28b6b3(0x220),web3[_0x28b6b3(0x16b)][_0x28b6b3(0x260)](BeeFee[_0x28b6b3(0x16d)]())),SendFee=(BigInt(SendFee)+BigInt(web3[_0x28b6b3(0x16b)][_0x28b6b3(0x260)](BeeFee[_0x28b6b3(0x16d)]())))[_0x28b6b3(0x16d)](),console[_0x28b6b3(0x16e)](_0x28b6b3(0x237),SendFee),$(_0x28b6b3(0x21b))[_0x28b6b3(0x1e5)](_0x28b6b3(0x167)+web3[_0x28b6b3(0x16b)][_0x28b6b3(0x194)](SendFee));var _0x3ba281=await web3['eth'][_0x28b6b3(0x229)](PolygonContractAddress);console[_0x28b6b3(0x16e)]('transactionCount:',_0x3ba281);var _0x370f86=web3[_0x28b6b3(0x22b)]['selectedAddress'],_0x5a9703,_0x546b4e,_0x654f69;async function _0x5761a8(){var _0x566ea6=_0x28b6b3,_0x54906c=await web3[_0x566ea6(0x24e)][_0x566ea6(0x18b)]['getId']();console[_0x566ea6(0x16e)](_0x54906c);switch(_0x54906c){case 0x1:console[_0x566ea6(0x16e)]('This\x20is\x20mainnet'),document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)]=0x1,document['getElementById']('SelectISendIMG')[_0x566ea6(0x1cd)]=_0x566ea6(0x25f)+String(0x1)+_0x566ea6(0x20b);break;case 0x2:console[_0x566ea6(0x16e)]('This\x20is\x20the\x20deprecated\x20Morden\x20test\x20network.');break;case 0x3:console[_0x566ea6(0x16e)]('This\x20is\x20the\x20ropsten\x20test\x20network.'),TokenContractAddress=RopstenTokenAddress,contractAdress=RopstenAddress,document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)]=0x3;break;case 0x2a:console[_0x566ea6(0x16e)]('This\x20is\x20the\x20kovan\x20\x20network.'),TokenContractAddress=KovanTokenAddress,contractAdress=KovanAddress,document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)]=0x2a;break;case 0x38:console[_0x566ea6(0x16e)](_0x566ea6(0x211)),TokenContractAddress=binanceTokenAddress,contractAdress=BinanceContractAddress,document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)]=0x38,document[_0x566ea6(0x218)](_0x566ea6(0x1e2))[_0x566ea6(0x1cd)]=_0x566ea6(0x25f)+String(0x38)+_0x566ea6(0x20b);break;case 0x61:contractAdress=BinanceTestContractAddress,console[_0x566ea6(0x16e)](_0x566ea6(0x205));break;case 0x6c:console[_0x566ea6(0x16e)]('This\x20is\x20the\x20ThunderCore\x20\x20network.');break;case 0x80:console['log'](_0x566ea6(0x1e7));break;case 0x89:TokenContractAddress=polygonTokenAddress,contractAdress=PolygonContractAddress,document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)]=0x89,document[_0x566ea6(0x218)]('SelectISendIMG')[_0x566ea6(0x1cd)]='img/'+String(0x89)+_0x566ea6(0x20b),console[_0x566ea6(0x16e)](_0x566ea6(0x1c0));break;case 0xfa:TokenContractAddress=fantomTokenAddress,contractAdress=FantomContractAddress,document['getElementById'](_0x566ea6(0x1ac))['value']=0xfa,document[_0x566ea6(0x218)](_0x566ea6(0x1e2))[_0x566ea6(0x1cd)]=_0x566ea6(0x25f)+String(0xfa)+'.png',console[_0x566ea6(0x16e)](_0x566ea6(0x17e));break;default:console['log'](_0x566ea6(0x1ea));}}function _0x38e264(){var _0x3dc335=_0x28b6b3;fetch(_0x3dc335(0x235))[_0x3dc335(0x223)](_0x3ddf32=>_0x3ddf32[_0x3dc335(0x155)]())[_0x3dc335(0x223)](_0x17d996=>{var _0x5912ae=_0x3dc335;const _0x4f0090=_0x17d996['market_data'];_0x3b6be6('BTCPrice')['innerHTML']='Bitcoin\x20Current\x20Price:\x20$'+_0x4f0090['current_price'][_0x5912ae(0x1e1)][_0x5912ae(0x240)](0x0),document[_0x5912ae(0x218)]('price')[_0x5912ae(0x143)]=_0x4f0090[_0x5912ae(0x1fc)][_0x5912ae(0x1e1)][_0x5912ae(0x240)](0x0);});}function _0x3b6be6(_0x4750f0){var _0x282c23=_0x28b6b3;return document[_0x282c23(0x218)](_0x4750f0);}$('#MultiSendButton')[_0x28b6b3(0x14a)](function(){var _0x405b05=_0x28b6b3;$(_0x405b05(0x259))[_0x405b05(0x1e5)](''),$(_0x405b05(0x197))[_0x405b05(0x1e5)](''),$(_0x405b05(0x152))[_0x405b05(0x22a)](),SendMultiToken();}),console[_0x28b6b3(0x16e)]('Metamask\x20detected!');}else console[_0x28b6b3(0x16e)](_0x28b6b3(0x203)),$(_0x28b6b3(0x259))[_0x28b6b3(0x1e5)](_0x28b6b3(0x209));});async function ActiveTokenContract(){var _0x3fe27a=_0x141eed;$(_0x3fe27a(0x197))[_0x3fe27a(0x1e5)]('');try{const _0x4bb015=web3[_0x3fe27a(0x16b)][_0x3fe27a(0x193)](document['getElementById'](_0x3fe27a(0x1d3))[_0x3fe27a(0x143)]);}catch(_0x1159e1){console[_0x3fe27a(0x165)]('invalid\x20ethereum\x20address',_0x1159e1[_0x3fe27a(0x1b8)]),TokenContractAddress=document[_0x3fe27a(0x218)](_0x3fe27a(0x1d3))[_0x3fe27a(0x143)],document[_0x3fe27a(0x218)](_0x3fe27a(0x1d3))['disabled']=![],$(_0x3fe27a(0x1a0))[_0x3fe27a(0x1e5)](_0x3fe27a(0x196));return;}$('#balanceOf')['html'](_0x3fe27a(0x212)),document[_0x3fe27a(0x218)]('TokenAddress')['disabled']=!![];var _0x112aac=document['getElementById'](_0x3fe27a(0x1d3))[_0x3fe27a(0x143)];TokenContract=await new web3[(_0x3fe27a(0x24e))][(_0x3fe27a(0x186))](TokenSmartContractABI,_0x112aac,{'from':web3[_0x3fe27a(0x22b)][_0x3fe27a(0x1ff)]}),console['log'](_0x3fe27a(0x1d8),TokenContract),console[_0x3fe27a(0x16e)]('Use\x20contract',contractAdress),console[_0x3fe27a(0x16e)](_0x3fe27a(0x17c),_0x112aac),getApproveStatus(web3[_0x3fe27a(0x22b)][_0x3fe27a(0x1ff)],contractAdress);var _0x2c3735=await balanceOf(web3[_0x3fe27a(0x22b)]['selectedAddress'],TokenContract);}async function GetEvents(_0x59aa27,_0x18064c){var _0x24251e=_0x141eed,_0x4ba38e;await _0x59aa27[_0x24251e(0x19c)]('allEvents',{'fromBlock':0x17df81,'toBlock':'latest'})['then'](_0x53c6d7=>_0x4ba38e=_0x53c6d7)[_0x24251e(0x248)](_0x2067b6=>console[_0x24251e(0x165)](_0x2067b6));var _0x440524=_0x4ba38e;console['log'](_0x440524),templateString=_0x24251e(0x23a)+_0x24251e(0x154)+_0x24251e(0x252)+_0x24251e(0x1c6)+'\x20<th>Initer\x20Network</th>\x20\x20'+_0x24251e(0x24b),$[_0x24251e(0x266)](_0x440524,function(_0x5064f2){var _0xbe12c1=_0x24251e;_0x440524[_0x5064f2][_0xbe12c1(0x210)]['initOrder']=='1'&&_0x440524[_0x5064f2][_0xbe12c1(0x210)][_0xbe12c1(0x217)]==_0x18064c&&(templateString+=_0xbe12c1(0x181)+_0x440524[_0x5064f2]['returnValues'][_0xbe12c1(0x217)]+_0xbe12c1(0x1d2)+web3['utils'][_0xbe12c1(0x194)](_0x440524[_0x5064f2]['returnValues'][_0xbe12c1(0x150)],'ether')+_0xbe12c1(0x1d2)+web3['utils'][_0xbe12c1(0x194)](_0x440524[_0x5064f2][_0xbe12c1(0x210)][_0xbe12c1(0x221)],_0xbe12c1(0x1b6))+_0xbe12c1(0x1d2)+_0x440524[_0x5064f2]['returnValues']['_ContractNetworkID']+_0xbe12c1(0x1a1)+'</tr>');}),templateString+='</table>',$('#EventTable')[_0x24251e(0x1f0)](templateString);}async function getPairPrice(){var _0x3d6cb8=_0x141eed,_0xd5cc0f=ISendobj[_0x3d6cb8(0x146)][ISendobj['selectedIndex']][_0x3d6cb8(0x143)],_0x2f6cad=IWantobj[_0x3d6cb8(0x146)][IWantobj[_0x3d6cb8(0x148)]][_0x3d6cb8(0x143)];console[_0x3d6cb8(0x16e)](_0x3d6cb8(0x1dc),_0xd5cc0f),console[_0x3d6cb8(0x16e)](_0x3d6cb8(0x21d),_0x2f6cad),FetchURL=_0x3d6cb8(0x244),console[_0x3d6cb8(0x16e)](_0x3d6cb8(0x159),FetchURL),fetch(FetchURL)['then'](_0x46dcb5=>_0x46dcb5[_0x3d6cb8(0x155)]())[_0x3d6cb8(0x223)](_0x190b79=>{var _0x4a6f10=_0x3d6cb8,_0x3939d4=_0x190b79['ethereum']['usd'],_0x3caa59=_0x190b79[_0x4a6f10(0x158)][_0x4a6f10(0x1e1)],_0x5c9675=_0x190b79[_0x4a6f10(0x151)][_0x4a6f10(0x1e1)];console[_0x4a6f10(0x16e)]('ETHPrice:',_0x3939d4),console[_0x4a6f10(0x16e)](_0x4a6f10(0x24d),_0x3caa59),console['log'](_0x4a6f10(0x1bd),_0x5c9675);var _0x20820b,_0x4f4e1d;if(_0xd5cc0f=='56')_0x20820b=_0x3caa59;else{if(_0xd5cc0f=='137')_0x20820b=_0x5c9675;else _0xd5cc0f=='1'&&(_0x20820b=_0x3939d4);}if(_0x2f6cad=='56')_0x4f4e1d=_0x3caa59;else{if(_0x2f6cad==_0x4a6f10(0x239))_0x4f4e1d=_0x5c9675;else _0x2f6cad=='1'&&(_0x4f4e1d=_0x3939d4);}return console[_0x4a6f10(0x16e)](_0x4a6f10(0x1aa),_0x20820b),console[_0x4a6f10(0x16e)]('IWantPrice:',_0x4f4e1d),PriceResult=_0x20820b/_0x4f4e1d,console['log'](_0x4a6f10(0x1c5),PriceResult[_0x4a6f10(0x240)](0x12)),$(_0x4a6f10(0x173))[_0x4a6f10(0x1e5)](PriceResult['toFixed'](0x12)),ISendInputChange(),PriceResult;});}async function SendMultiToken(){var _0x271aa2=_0x141eed;if(CurrentTokenDecimals==0x0){$('#Tips')[_0x271aa2(0x1e5)]('fill\x20your\x20token\x20address\x20first.'),$(_0x271aa2(0x152))[_0x271aa2(0x144)]();return;}var _0x157537=document[_0x271aa2(0x218)](_0x271aa2(0x262));console[_0x271aa2(0x16e)](_0x271aa2(0x256),_0x157537);if(typeof FileReader==='undefined'){$(_0x271aa2(0x259))['html'](_0x271aa2(0x222)),$(_0x271aa2(0x1e0))['html'](''),$('#loader1')['hide']();return;}if(document[_0x271aa2(0x218)](_0x271aa2(0x1ab))[_0x271aa2(0x174)]&&(document[_0x271aa2(0x218)](_0x271aa2(0x254))[_0x271aa2(0x143)]==''||document['getElementById']('AddressArea')[_0x271aa2(0x143)]=='')){$(_0x271aa2(0x259))['html'](_0x271aa2(0x15e)),$('#loader1')[_0x271aa2(0x144)]();return;}console['log']('document.getElementById(\x27MultiSendAmount\x27).value',document['getElementById'](_0x271aa2(0x254))[_0x271aa2(0x143)]),console['log'](_0x271aa2(0x18e),CurrentTokenDecimals),console[_0x271aa2(0x16e)](_0x271aa2(0x242),contractAdress);var _0x108195=[],_0x45b916=[];if(document['getElementById'](_0x271aa2(0x1ab))['checked']){var _0x4f8c6d=$(_0x271aa2(0x238))[_0x271aa2(0x23f)]()['split'](/\n/);_0x108195=[],_0x45b916=[];for(var _0x971a1b=0x0;_0x971a1b<_0x4f8c6d[_0x271aa2(0x15c)];_0x971a1b++){/\S/[_0x271aa2(0x188)](_0x4f8c6d[_0x971a1b])&&(_0x108195[_0x271aa2(0x227)]($[_0x271aa2(0x24a)](_0x4f8c6d[_0x971a1b])),_0x45b916['push'](BigInt(document[_0x271aa2(0x218)](_0x271aa2(0x254))[_0x271aa2(0x143)]*Math[_0x271aa2(0x231)](0xa,CurrentTokenDecimals[_0x271aa2(0x16d)]()))[_0x271aa2(0x16d)]()));}}else{console[_0x271aa2(0x16e)](_0x271aa2(0x1a6)),_0x108195=[],_0x45b916=[];let _0x15cd5e=await ReadCSVtoArray();console[_0x271aa2(0x16e)](_0x271aa2(0x214),_0x15cd5e);if(typeof _0x15cd5e==_0x271aa2(0x177)){console[_0x271aa2(0x16e)](_0x271aa2(0x206)),$(_0x271aa2(0x259))[_0x271aa2(0x1e5)](_0x271aa2(0x1ee)),$(_0x271aa2(0x1e0))[_0x271aa2(0x1e5)](''),$('#loader1')['hide']();return;}else _0x108195=_0x15cd5e[_0x271aa2(0x1af)],_0x45b916=_0x15cd5e[_0x271aa2(0x1ad)];}console[_0x271aa2(0x16e)]('_AddressArray:',_0x108195),console[_0x271aa2(0x16e)](_0x271aa2(0x14b),_0x45b916),console[_0x271aa2(0x16e)](_0x271aa2(0x267),contractAdress),_Contract=await new web3[(_0x271aa2(0x24e))][(_0x271aa2(0x186))](SmartContractABI,contractAdress,{'from':web3[_0x271aa2(0x22b)][_0x271aa2(0x1ff)]});var _0x29ec70=document[_0x271aa2(0x218)](_0x271aa2(0x1d3))[_0x271aa2(0x143)],_0x31f28a=0x1d1a94a2001;console[_0x271aa2(0x16e)](_0x271aa2(0x19b),FeeReciever);var _0x54c62d=await web3['eth']['getGasPrice']();console[_0x271aa2(0x16e)]('gasPrice:'+_0x54c62d);var _0x351161,_0x40c7b6=web3['utils']['toWei'](BeeFee[_0x271aa2(0x16d)]());console[_0x271aa2(0x16e)](_0x271aa2(0x1a5),SendFee),console[_0x271aa2(0x16e)]('BeeFee:',BeeFee),console[_0x271aa2(0x16e)](_0x271aa2(0x1c3),_0x40c7b6),console[_0x271aa2(0x16e)](_0x271aa2(0x18a),SendFee),await _Contract[_0x271aa2(0x234)][_0x271aa2(0x20a)](_0x108195,_0x45b916,_0x29ec70,FeeReciever,_0x40c7b6)['estimateGas']({'from':web3['currentProvider'][_0x271aa2(0x1ff)],'value':SendFee})[_0x271aa2(0x223)](function(_0x18e2b6){_0x351161=_0x18e2b6;})[_0x271aa2(0x248)](function(_0x2ff19e){}),console[_0x271aa2(0x16e)](_0x271aa2(0x142)+_0x351161),document[_0x271aa2(0x218)](_0x271aa2(0x243))[_0x271aa2(0x174)]?(console[_0x271aa2(0x16e)](_0x271aa2(0x1c2)),await _Contract['methods'][_0x271aa2(0x20a)](_0x108195,_0x45b916,_0x29ec70,FeeReciever,_0x40c7b6)['send']({'from':web3[_0x271aa2(0x22b)][_0x271aa2(0x1ff)],'gas':_0x351161,'gasPrice':_0x54c62d,'value':SendFee},function(_0x4df6f8,_0x465ee6){var _0x466f51=_0x271aa2;!_0x4df6f8?console['log'](_0x466f51(0x219),_0x465ee6):(console[_0x466f51(0x16e)](_0x466f51(0x161)),_0x4df6f8['message'][_0x466f51(0x1d0)](_0x466f51(0x263))&&(console[_0x466f51(0x16e)](_0x466f51(0x263)),$(_0x466f51(0x152))['hide']()));})[_0x271aa2(0x251)](_0x271aa2(0x1d6),function(_0x255102){var _0x1a03cb=_0x271aa2;console[_0x1a03cb(0x16e)]('hash:',_0x255102);var _0x37afa5=BlockchainScan+_0x255102;$(_0x1a03cb(0x197))[_0x1a03cb(0x1e5)]('Transaction\x20Hash:\x20'+'<a\x20href='+_0x37afa5+_0x1a03cb(0x22e)+_0x255102+_0x1a03cb(0x1f9));})['once'](_0x271aa2(0x1fd),function(_0x1a449c){var _0x42b136=_0x271aa2;console['log'](_0x42b136(0x1b3),_0x1a449c),document[_0x42b136(0x218)](_0x42b136(0x22d))['style'][_0x42b136(0x23d)]='green',$(_0x42b136(0x152))[_0x42b136(0x144)]();})):(console[_0x271aa2(0x16e)](_0x271aa2(0x183)),await _Contract[_0x271aa2(0x234)][_0x271aa2(0x20a)](_0x108195,_0x45b916,_0x29ec70,FeeReciever,_0x40c7b6)['send']({'from':web3[_0x271aa2(0x22b)]['selectedAddress'],'value':SendFee},function(_0x40d368,_0x5ebb28){var _0x2143a3=_0x271aa2;!_0x40d368?console[_0x2143a3(0x16e)](_0x2143a3(0x219),_0x5ebb28):(console[_0x2143a3(0x16e)](_0x2143a3(0x161)),_0x40d368[_0x2143a3(0x1b8)][_0x2143a3(0x1d0)](_0x2143a3(0x263))&&(console['log'](_0x2143a3(0x263)),$(_0x2143a3(0x152))['hide']()));})[_0x271aa2(0x251)]('transactionHash',function(_0x5b010d){var _0x1a78fc=_0x271aa2;console[_0x1a78fc(0x16e)](_0x1a78fc(0x140),_0x5b010d);var _0x113a69=BlockchainScan+_0x5b010d;$(_0x1a78fc(0x197))['html']('Transaction\x20Hash:\x20'+_0x1a78fc(0x250)+_0x113a69+_0x1a78fc(0x22e)+_0x5b010d+_0x1a78fc(0x1f9));})[_0x271aa2(0x251)](_0x271aa2(0x1fd),function(_0x889b00){var _0x15a8f6=_0x271aa2;console[_0x15a8f6(0x16e)](_0x15a8f6(0x1b3),_0x889b00),document[_0x15a8f6(0x218)]('transactionHashLabel')[_0x15a8f6(0x1d7)][_0x15a8f6(0x23d)]=_0x15a8f6(0x18f),$(_0x15a8f6(0x152))[_0x15a8f6(0x144)]();}));}async function GetEndTime(){var _0x237d02=_0x141eed;await myContract[_0x237d02(0x234)][_0x237d02(0x1b9)]()['call']({'from':web3[_0x237d02(0x22b)][_0x237d02(0x1ff)]},function(_0x53338c,_0x208d79){var _0x16d67f=_0x237d02;if(!_0x53338c){console['log'](_0x16d67f(0x14e),_0x208d79);var _0x3b7f5c=_0x208d79+_0x16d67f(0x1fa);TimeCount(_0x3b7f5c);}else console[_0x16d67f(0x16e)](_0x16d67f(0x195),_0x53338c);});}async function GetRewardPool(){var _0x34e9f3=_0x141eed;await myContract[_0x34e9f3(0x234)][_0x34e9f3(0x224)]()['call']({'from':web3[_0x34e9f3(0x22b)]['selectedAddress']},function(_0x53d501,_0x3798cb){var _0xf8a7bc=_0x34e9f3;!_0x53d501?(console[_0xf8a7bc(0x16e)](_0xf8a7bc(0x199),_0x3798cb),document[_0xf8a7bc(0x218)](_0xf8a7bc(0x224))['innerHTML']=_0xf8a7bc(0x204)+web3[_0xf8a7bc(0x16b)][_0xf8a7bc(0x194)](_0x3798cb,_0xf8a7bc(0x1b6))):console[_0xf8a7bc(0x16e)](_0xf8a7bc(0x1d4),_0x53d501);});}function addZero(_0xfb9e51){var _0x1c0b00=_0x141eed,_0x5b09d3=_0xfb9e51+_0x1c0b00(0x1bf);return _0x5b09d3;}function component(_0xf0474,_0x5127b8){return Math['floor'](_0xf0474/_0x5127b8);}function TimeCount(_0x474ef3){var _0x17180e=setInterval(function(){var _0x429280=_0x2afa,_0x41b02c=new Date()[_0x429280(0x187)](),_0x758271=_0x474ef3-_0x41b02c,_0x2d2837=Math[_0x429280(0x1c4)](_0x758271/(0x3e8*0x3c*0x3c*0x18)),_0x2a9ad0=Math[_0x429280(0x1c4)](_0x758271%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c)),_0x4e5012=Math['floor'](_0x758271%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0x31b7f2=Math['floor'](_0x758271%(0x3e8*0x3c)/0x3e8);$(_0x429280(0x1b1))[_0x429280(0x1e5)](_0x2d2837+_0x429280(0x22c)),$('#hours')[_0x429280(0x1e5)](_0x2a9ad0+_0x429280(0x1f3)),$(_0x429280(0x21c))['html'](_0x4e5012+_0x429280(0x215)),$(_0x429280(0x1bb))[_0x429280(0x1e5)](_0x31b7f2+_0x429280(0x20f)),_0x758271<0x0&&(clearInterval(_0x17180e),$(_0x429280(0x1b1))['html']('0'+_0x429280(0x22c)),$(_0x429280(0x23c))[_0x429280(0x1e5)]('0'+_0x429280(0x1f3)),$(_0x429280(0x21c))[_0x429280(0x1e5)]('0'+_0x429280(0x215)),$(_0x429280(0x1bb))[_0x429280(0x1e5)]('0'+_0x429280(0x20f)),$(_0x429280(0x1ed))[_0x429280(0x22a)]());},0x3e8);}function ISendChange(){var _0x1b0eb8=_0x141eed;ISendobj=document[_0x1b0eb8(0x218)](_0x1b0eb8(0x1ac)),IWantobj=document['getElementById']('SelectIWant'),console['log'](ISendobj['options'][ISendobj['selectedIndex']][_0x1b0eb8(0x143)]),detectEthereumNetwork(ISendobj[_0x1b0eb8(0x146)][ISendobj['selectedIndex']]['value']);}function _0x2323(){var _0x5b3f92=['#loader2','append','reload','0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff','<span>Hours</span>','balance:','balanceOf\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract','SameAmount','UploadCSV','decimal\x20*\x2010:','</a>','000','#SendSameAmountDiv','current_price','receipt','This\x20is\x20the\x20deprecated\x20Morden\x20test\x20network.','selectedAddress','0xAbaBfd603054c405ca510dC8115d29059A20714A','https://ftmscan.com','Contract\x20fee','Metamask\x20not\x20detected','Reward\x20coins\x20Pool:','This\x20is\x20the\x20BSC\x20test\x20network.','read\x20csv\x20Error:','This\x20is\x20the\x20huobi\x20\x20network.','Matic','<div\x20class=\x27alert\x20alert-warning\x27\x20role=\x27alert\x27>\x20<a\x20\x20\x20href=\x27https://metamask.io/\x27>Metamask\x20not\x20install,Click\x20to\x20Install\x20Metamask\x20First</a></div>','multiSender','.png','0xA869b575445ea5398E3c0c3C812C32eb271dD6F4','I\x20Send\x20','0x9548Bd113543bE16b9dcF62e5744321c036a19bb','<span>Seconds</span>','returnValues','This\x20is\x20the\x20BSC\x20\x20network.','Loading...','0xc2132d05d31c914a87c6611c10748aeb04b58e8f','ReadCSVtoArrayOBJ:','<span>Minutes</span>','fee','NetworkIDIniterWant','getElementById','multiSender\x20finish','0x55d398326f99059ff775485246999027b3197955','#SendFeeText','#minutes','IWantValue:','8635gvAmUN','insertCell','BeeFee','_value','Please\x20choose\x20a\x20valid\x20CSV\x20file,\x20CSV\x20file\x20name\x20are\x20English\x20letters\x20only,like:\x20abc123.csv','then','RewardPool','change','blockExplorerUrls','push','multiple-variable-equations','getTransactionCount','show','currentProvider','<span>Days</span>','transactionHashLabel','\x20target=\x22_blank\x22>','reverse','table','pow','target','decimals','methods','https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&sparkline=false','fantomLimit:','This\x20SendFee:','#AddressArea','137','<table\x20class=table>\x20\x20<tr>\x20\x20\x20','https://rpc-mainnet.matic.network','#hours','color','This\x20is\x20the\x20Phoenix\x20network.','val','toFixed','#approveThisButton','init\x20order\x20contractAdress:','one-variable-equations','https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Cbnb%2Cethereum%2Cbinancecoin&vs_currencies=usd','polygonLimit:','This\x20is\x20mainnet','0x5B2643DB5fA7894e6630c8Ab56c828E9Ca186e0C','catch','getId','trim','\x20</tr>','6292524xVUdXk','BNBPrice:','eth','Please\x20upload\x20a\x20valid\x20CSV\x20file.','<a\x20href=','once','\x20<th>You\x20send</th>\x20','https://bscscan.com/','MultiSendAmount','MATIC','fileUpload:','This\x20is\x20the\x20Avalanche\x20\x20network.','FeeReciever\x20Address:','#Tips','#MultiSendButton','start','getApproveStatus:','https://polygonscan.com/tx/','351ChJWsd','img/','toWei','Network\x20Is\x20wrong,Add\x20or\x20Switch\x20now','fileUpload','User\x20denied\x20transaction\x20signature','appendChild','Already\x20approved!','each','contractAdress:','amount:','hash:','.......','trans_estimate_gas:','value','hide','#CurrentAddress','options','ISendInput','selectedIndex','binanceLimit:','click','_AmountArray:','allowance','2053720oUUyUM','EndTime:','0xBc4A22F4A76367a4F503BCDfB2c6ee6b115537a7','AmountIniterWant','matic-network','#loader1','ready','<th>Initer\x20Want</th>\x20','json','call','https://ftmscan.com/token/0x04068da6c83afcfa0e13ba15a6696662335d5b75','binancecoin','FetchURL:','7600940zmQhqF','networkChanged','length','toLowerCase','Send\x20amount\x20or\x20address\x20should\x20not\x20be\x20empty','SendDiffAmountRadio','0x58a0d75dec5bf63b0857480c595f04fb00ea5820','multiSender\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract\x20or\x20less\x20than\x20100','chainName','not\x20found\x20network,now\x20add\x20it\x20.','result','error','Choice:\x20','Fee:','https://phoenixplorer.com/tx/','0xdC4D417552F5E42ac7D610B850BF1ff18fd4DbbB','0x51ebdf026991f2BAa4AbC5126d2b53d4a0674734','utils','split','toString','log','#SendDiffAmountDiv','location','accountsChanged','3bIUSdz','#PriceSuggest','checked','join','https://http-mainnet.hecochain.com','undefined','https://hecoinfo.com','This\x20browser\x20does\x20not\x20support\x20HTML5.','Balance:','toUpperCase','Use\x20token','ethereum','This\x20is\x20the\x20Fantom\x20\x20network.','Approval\x20successfull!','substring','<tr><td>','https://rpcapi.fantom.network','low\x20gas','This\x20is\x20the\x20Fantom\x20network.','low','Contract','getTime','test','map','totalFee:','net','UseHighGasFee:\x20','balanceOf','CurrentTokenDecimals:','green','Fantom\x20Opera','4cFahtS','#SendUSDDescription','toChecksumAddress','fromWei','EndTime\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract','Token\x20Address\x20Wrong','#transactionHashLabel','https://bsc-dataseed1.binance.org/','RewardPool:','readAsText','FeeReciever:','getPastEvents','wallet_addEthereumChain','disabled','approve','#balanceOf','</td>\x20\x20','Not\x20in\x20range,Exit','User\x20reject\x20switch\x20network.','This\x20is\x20the\x20ThunderCore\x20\x20network.','Total\x20fee:','start\x20read\x20csv...','https://bscscan.com/tx/','0xc43c3468fd93CfFbb58309253b91e69c765bc5e2','This\x20is\x20the\x20Cronos\x20network.','ISendPrice:','SendSameAmountRadio','SelectISend','_AmountArray','https://ropsten.etherscan.io/tx/','_AddressArray','finalAmount:','#days','dvCSV','receipt:','rpcUrls','web3','ether','https://polygonscan.com/address/0xc2132d05d31c914a87c6611c10748aeb04b58e8f','message','EndTime','User\x20reject\x20.','#seconds','insertRow','MaticPrice:','enable','000000000000000000','This\x20is\x20the\x20Polygon\x20\x20network.','Huobi\x20ECO\x20Chain\x20Mainnet','high\x20gas','ReferrerFee\x20wei:','floor','suggest\x20price:','\x20<th>You\x20get</th>\x20\x20','3656712OIjspZ','This\x20is\x20the\x20kovan\x20\x20network.','https://cronoscan.com/tx/','balanceOf:','490775dZQOnk','https://polygonscan.com','src','Matic(Polygon)\x20Mainnet','request','includes','https://ftmscan.com/tx/','</td><td>','TokenAddress','RewardPool\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract','173552xKgHBz','transactionHash','style','generate\x20TokenContract:','ISendInputChange','IWantInput','https://etherscan.io/tx/','ISendValue:','\x20USDT','send','10460TICEfp','#dvCSV','usd','SelectISendIMG','FTM','code','html','files','This\x20is\x20the\x20huobi\x20network.','innerHTML','current\x20network\x20equl\x20Select\x20network\x20id.\x20does\x27nt\x20need\x20switch\x20metamask','This\x20is\x20an\x20unknown\x20network.','IsMetamask','0x04068da6c83afcfa0e13ba15a6696662335d5b75','#OverTime','Please\x20choose\x20a\x20valid\x20CSV\x20file,csv\x20file\x20name\x20are\x20English\x20letters\x20only,like:\x20abc123.csv'];_0x2323=function(){return _0x5b3f92;};return _0x2323();}async function detectEthereumNetwork(_0x311b86){var _0x17cde6=_0x141eed,_0x4af983={'chainName':'Binance\x20Smart\x20Chain\x20Mainnet','chainxName':'BNB','symbol':'BNB','rpcUrls':_0x17cde6(0x198),'blockExplorerUrls':_0x17cde6(0x253)},_0x49f808={'chainName':_0x17cde6(0x1ce),'chainxName':_0x17cde6(0x208),'symbol':_0x17cde6(0x255),'rpcUrls':_0x17cde6(0x23b),'blockExplorerUrls':_0x17cde6(0x1cc)},_0x274543={'chainName':_0x17cde6(0x1c1),'chainxName':'HT','symbol':'HT','rpcUrls':_0x17cde6(0x176),'blockExplorerUrls':_0x17cde6(0x178)},_0x352011={'chainName':_0x17cde6(0x190),'chainxName':_0x17cde6(0x1e3),'symbol':_0x17cde6(0x1e3),'rpcUrls':_0x17cde6(0x182),'blockExplorerUrls':_0x17cde6(0x201)},_0x297414=ISendobj[_0x17cde6(0x146)][ISendobj['selectedIndex']][_0x17cde6(0x143)],_0x56f738=await web3['eth'][_0x17cde6(0x18b)][_0x17cde6(0x249)]();console[_0x17cde6(0x16e)]('networkId.',_0x56f738);var _0x5261ce;if(_0x297414==0x38)_0x5261ce=_0x4af983;else{if(_0x297414==0x80)_0x5261ce=_0x274543;else{if(_0x297414==0x89)_0x5261ce=_0x49f808;else _0x297414==0xfa&&(_0x5261ce=_0x352011);}}if(_0x56f738==ISendobj[_0x17cde6(0x146)][ISendobj[_0x17cde6(0x148)]]['value']&&_0x56f738!=0x13881)return console[_0x17cde6(0x16e)](_0x17cde6(0x1e9)),!![];try{$('#Tips')[_0x17cde6(0x1e5)](_0x17cde6(0x261)),await window['ethereum'][_0x17cde6(0x1cf)]({'method':'wallet_switchEthereumChain','params':[{'chainId':'0x'+decimalToHexString(parseInt(_0x311b86))}]}),window[_0x17cde6(0x170)][_0x17cde6(0x1f1)]();}catch(_0x5b89e1){console[_0x17cde6(0x16e)]('error.code',_0x5b89e1['code']);if(_0x5b89e1[_0x17cde6(0x1e4)]==0x1326)try{console[_0x17cde6(0x16e)](_0x17cde6(0x163),_0x5b89e1[_0x17cde6(0x1e4)]),await window[_0x17cde6(0x17d)][_0x17cde6(0x1cf)]({'method':_0x17cde6(0x19d),'params':[{'chainId':'0x'+decimalToHexString(parseInt(_0x311b86)),'chainName':_0x5261ce[_0x17cde6(0x162)],'nativeCurrency':{'name':_0x5261ce['chainxName'],'symbol':_0x5261ce['symbol'],'decimals':0x12},'rpcUrls':[_0x5261ce[_0x17cde6(0x1b4)]],'blockExplorerUrls':[_0x5261ce[_0x17cde6(0x226)]]}]});return![];window[_0x17cde6(0x170)]['reload']();}catch(_0x3d9a6f){if(_0x3d9a6f[_0x17cde6(0x1e4)]==0xfa1)return console[_0x17cde6(0x16e)](_0x17cde6(0x1ba),_0x3d9a6f[_0x17cde6(0x1b8)]),$(_0x17cde6(0x152))[_0x17cde6(0x144)](),$(_0x17cde6(0x259))[_0x17cde6(0x1e5)](''),![];}else{if(_0x5b89e1[_0x17cde6(0x1e4)]==0xfa1)return console[_0x17cde6(0x16e)](_0x17cde6(0x1a3),_0x5b89e1[_0x17cde6(0x1b8)]),$('#loader1')[_0x17cde6(0x144)](),$(_0x17cde6(0x259))[_0x17cde6(0x1e5)](''),![];}}$(_0x17cde6(0x259))[_0x17cde6(0x1e5)]('');}async function ChooseNetwork(_0x56e661){var _0x58e2cd=_0x141eed;switch(_0x56e661){case'1':console['log'](_0x58e2cd(0x246));break;case'2':console['log'](_0x58e2cd(0x1fe));break;case'3':console[_0x58e2cd(0x16e)]('This\x20is\x20the\x20ropsten\x20test\x20network.'),TokenContractAddress=RopstenTokenAddress,contractAdress=RopstenAddress;break;case'42':console[_0x58e2cd(0x16e)](_0x58e2cd(0x1c8)),TokenContractAddress=KovanTokenAddress,contractAdress=KovanAddress;break;case'56':contractAdress=BinanceContractAddress,TokenContractAddress=binanceTokenAddress,console[_0x58e2cd(0x16e)](_0x58e2cd(0x211));break;case'97':contractAdress=BinanceTestContractAddress,console[_0x58e2cd(0x16e)](_0x58e2cd(0x205));break;case'137':contractAdress=PolygonContractAddress,TokenContractAddress=polygonTokenAddress,console[_0x58e2cd(0x16e)]('This\x20is\x20the\x20Polygon\x20network.');break;case'250':contractAdress=FantomContractAddress,TokenContractAddress=fantomTokenAddress,console[_0x58e2cd(0x16e)](_0x58e2cd(0x184));break;default:console['log'](_0x58e2cd(0x1ea));return![];}}function decimalToHexString(_0xddf227){var _0x239afb=_0x141eed;return _0xddf227<0x0&&(_0xddf227=0xffffffff+_0xddf227+0x1),_0xddf227['toString'](0x10)[_0x239afb(0x17b)]();}function ISendInputChange(){var _0x1565db=_0x141eed;parseFloat(document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)])>0x2&&(document[_0x1565db(0x218)](_0x1565db(0x1da))['value']=parseInt(document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)]),document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)]=parseInt(document['getElementById'](_0x1565db(0x147))[_0x1565db(0x143)]),$(_0x1565db(0x192))[_0x1565db(0x1e5)](_0x1565db(0x20d)+(parseInt(document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)])+0x1)+_0x1565db(0x1dd)),console['log'](_0x1565db(0x1d9)),console['log'](_0x1565db(0x245),polygonLimit),console['log'](_0x1565db(0x149),binanceLimit),console['log'](_0x1565db(0x236),fantomLimit));}async function approveThis(_0x1f1b21){var _0x4ae9bb=_0x141eed;try{const _0x4d6f21=web3[_0x4ae9bb(0x16b)][_0x4ae9bb(0x193)](document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))[_0x4ae9bb(0x143)]);}catch(_0x40087a){console['error']('approveThis:invalid\x20ethereum\x20address',_0x40087a['message']),TokenContractAddress=document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))[_0x4ae9bb(0x143)],document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))['disabled']=![];return;};$(_0x4ae9bb(0x1ef))[_0x4ae9bb(0x22a)]();var _0x5b9567=document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))[_0x4ae9bb(0x143)];TokenContract=await new web3[(_0x4ae9bb(0x24e))][(_0x4ae9bb(0x186))](TokenSmartContractABI,_0x5b9567,{'from':web3[_0x4ae9bb(0x22b)][_0x4ae9bb(0x1ff)]});const _0x329c9e=await TokenContract['methods'][_0x4ae9bb(0x19f)](_0x1f1b21,_0x4ae9bb(0x1f2))[_0x4ae9bb(0x1de)]({'from':web3[_0x4ae9bb(0x22b)][_0x4ae9bb(0x1ff)]},function(_0x38cd5a,_0x2e84db){var _0x1b88e1=_0x4ae9bb;!_0x38cd5a?console[_0x1b88e1(0x16e)](_0x1b88e1(0x17f)):($(_0x1b88e1(0x1ef))[_0x1b88e1(0x144)](),console[_0x1b88e1(0x16e)]('Approval\x20failed!'));})[_0x4ae9bb(0x251)](_0x4ae9bb(0x1d6),function(_0x10af9f){var _0x3c4d04=_0x4ae9bb;console[_0x3c4d04(0x16e)]('Approval\x20hash:',_0x10af9f);})['once'](_0x4ae9bb(0x1fd),function(_0x21a1cd){var _0x41f0eb=_0x4ae9bb;console[_0x41f0eb(0x16e)]('Approval\x20receipt:',_0x21a1cd),$(_0x41f0eb(0x241))[_0x41f0eb(0x144)](),$(_0x41f0eb(0x25a))[_0x41f0eb(0x22a)](),$('#loader2')[_0x41f0eb(0x144)]();});}async function getApproveStatus(_0x571a5a,_0x592218){var _0x22adc5=_0x141eed;await TokenContract[_0x22adc5(0x234)][_0x22adc5(0x14c)](_0x571a5a,_0x592218)[_0x22adc5(0x156)]({'from':web3[_0x22adc5(0x22b)][_0x22adc5(0x1ff)]},function(_0x3a6f70,_0x298683){var _0x3496bd=_0x22adc5;!_0x3a6f70&&(console[_0x3496bd(0x16e)](_0x3496bd(0x25c),_0x298683),_0x298683>0x0?($(_0x3496bd(0x241))[_0x3496bd(0x144)](),$('#MultiSendButton')['show'](),document[_0x3496bd(0x218)]('TokenAddress')[_0x3496bd(0x19e)]=![],console[_0x3496bd(0x16e)](_0x3496bd(0x265))):($(_0x3496bd(0x241))[_0x3496bd(0x22a)](),$('#MultiSendButton')[_0x3496bd(0x144)](),document[_0x3496bd(0x218)](_0x3496bd(0x1d3))['disabled']=![],console['log']('have\x20not\x20approved,please\x20approve\x20first!')));});}async function balanceOf(_0x11519e,_0x3502ef){var _0x4a40b0=_0x141eed;$(_0x4a40b0(0x1a0))['html'](_0x4a40b0(0x212)),await _0x3502ef[_0x4a40b0(0x234)][_0x4a40b0(0x18d)](_0x11519e)[_0x4a40b0(0x156)]({'from':web3[_0x4a40b0(0x22b)]['selectedAddress']},function(_0x10cc66,_0x303bc7){var _0x5ba8ca=_0x4a40b0;!_0x10cc66?(console[_0x5ba8ca(0x16e)](_0x5ba8ca(0x1ca),_0x303bc7),_0x3502ef[_0x5ba8ca(0x234)][_0x5ba8ca(0x233)]()['call'](function(_0x498e04,_0xb3e0ee){var _0x572c01=_0x5ba8ca,_0x6f1cf3=parseInt(_0x303bc7),_0x2f6716=Math[_0x572c01(0x231)](0xa,parseInt(_0xb3e0ee)),_0x494fb0=_0x6f1cf3/_0x2f6716;console['log'](_0x572c01(0x1b0),_0x494fb0);var _0x4e23c4='https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955';if(document[_0x572c01(0x218)]('SelectISend')[_0x572c01(0x143)]==0x38)_0x4e23c4='https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955';else{if(document[_0x572c01(0x218)]('SelectISend')[_0x572c01(0x143)]==0x89)_0x4e23c4=_0x572c01(0x1b7);else document['getElementById']('SelectISend')[_0x572c01(0x143)]==0xfa&&(_0x4e23c4=_0x572c01(0x157));}$('#balanceOf')[_0x572c01(0x1e5)](_0x572c01(0x17a)+_0x494fb0),CurrentTokenDecimals=BigInt(_0xb3e0ee),console[_0x572c01(0x16e)]('TokenDecimals:',_0xb3e0ee),console[_0x572c01(0x16e)](_0x572c01(0x1f8),_0x2f6716),console[_0x572c01(0x16e)](_0x572c01(0x1f4),BigInt(_0x6f1cf3));})):($('#balanceOf')[_0x5ba8ca(0x1e5)]('Can\x20not\x20read\x20This\x20token.'),document[_0x5ba8ca(0x218)](_0x5ba8ca(0x1d3))['disabled']=![],console[_0x5ba8ca(0x16e)](_0x5ba8ca(0x1f5)));});}function SendType(_0x39b45a){var _0x1fa32b=_0x141eed;if(_0x39b45a==_0x1fa32b(0x1f6))console[_0x1fa32b(0x16e)](_0x1fa32b(0x166),_0x39b45a),document[_0x1fa32b(0x218)](_0x1fa32b(0x1ab))[_0x1fa32b(0x174)]=!![],document['getElementById'](_0x1fa32b(0x15f))[_0x1fa32b(0x174)]=![],$('#SendSameAmountDiv')[_0x1fa32b(0x22a)](),$(_0x1fa32b(0x16f))[_0x1fa32b(0x144)](),$(_0x1fa32b(0x1e0))[_0x1fa32b(0x1e5)](''),$(_0x1fa32b(0x259))[_0x1fa32b(0x1e5)]('');else _0x39b45a==_0x1fa32b(0x1f7)&&(console[_0x1fa32b(0x16e)](_0x1fa32b(0x166),_0x39b45a),document['getElementById'](_0x1fa32b(0x1ab))[_0x1fa32b(0x174)]=![],document[_0x1fa32b(0x218)](_0x1fa32b(0x15f))[_0x1fa32b(0x174)]=!![],$(_0x1fa32b(0x1fb))['hide'](),$('#SendDiffAmountDiv')[_0x1fa32b(0x22a)](),Upload());}function checkRadio(_0xf85b09){var _0x3c95d1=_0x141eed;if(_0xf85b09=='Medium')console[_0x3c95d1(0x16e)](_0x3c95d1(0x166),_0xf85b09),document[_0x3c95d1(0x218)](_0x3c95d1(0x243))[_0x3c95d1(0x174)]=!![],document['getElementById'](_0x3c95d1(0x228))[_0x3c95d1(0x174)]=![],UseHighGasFee=!![],console['log'](_0x3c95d1(0x18c),UseHighGasFee);else _0xf85b09==_0x3c95d1(0x185)&&(console[_0x3c95d1(0x16e)](_0x3c95d1(0x166),_0xf85b09),document['getElementById'](_0x3c95d1(0x228))[_0x3c95d1(0x174)]=!![],document['getElementById'](_0x3c95d1(0x243))['checked']=![],UseHighGasFee=![],console['log'](_0x3c95d1(0x18c),UseHighGasFee));}var SelectISendIMGSelectBox=document[_0x141eed(0x218)]('SelectISend'),SelectISendIMG=document[_0x141eed(0x218)](_0x141eed(0x1e2));SelectISendIMG['src']='img/56.png',SelectISendIMGSelectBox['addEventListener'](_0x141eed(0x225),function(){var _0x3459ae=_0x141eed;SelectISendIMG[_0x3459ae(0x1cd)]=_0x3459ae(0x25f)+this['options'][this[_0x3459ae(0x148)]][_0x3459ae(0x143)]+_0x3459ae(0x20b);},![]);function Upload(){var _0xff11cd=_0x141eed,_0x1806f2=document['getElementById'](_0xff11cd(0x262)),_0x62246=/^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;if(_0x62246[_0xff11cd(0x188)](_0x1806f2['value'][_0xff11cd(0x15d)]())){if(typeof FileReader!='undefined'){var _0x5c9c83=new FileReader();_0x5c9c83['onload']=function(_0x2f3a38){var _0x2775a0=_0xff11cd,_0x228379=document['createElement'](_0x2775a0(0x230)),_0xe3001c=_0x2f3a38[_0x2775a0(0x232)][_0x2775a0(0x164)]['split']('\x0a');for(var _0x2cd729=0x0;_0x2cd729<_0xe3001c[_0x2775a0(0x15c)];_0x2cd729++){var _0x557ad2=_0x228379[_0x2775a0(0x1bc)](-0x1),_0x848fda=_0xe3001c[_0x2cd729][_0x2775a0(0x16c)](',');for(var _0x29925f=0x0;_0x29925f<_0x848fda[_0x2775a0(0x15c)];_0x29925f++){var _0x2d7338=_0x557ad2[_0x2775a0(0x21f)](-0x1);_0x2d7338[_0x2775a0(0x1e8)]=_0x848fda[_0x29925f];}}var _0x4bc6f8=document[_0x2775a0(0x218)](_0x2775a0(0x1b2));_0x4bc6f8[_0x2775a0(0x1e8)]='',_0x4bc6f8[_0x2775a0(0x264)](_0x228379);},_0x5c9c83[_0xff11cd(0x19a)](_0x1806f2[_0xff11cd(0x1e6)][0x0]);}else $(_0xff11cd(0x259))[_0xff11cd(0x1e5)](_0xff11cd(0x179)),$(_0xff11cd(0x152))[_0xff11cd(0x144)]();}else $(_0xff11cd(0x259))[_0xff11cd(0x1e5)](_0xff11cd(0x222)),$(_0xff11cd(0x152))[_0xff11cd(0x144)]();}function multiply(_0x1631f2,_0x797fe){var _0x5ef7c2=_0x141eed;let _0x8afe22=0x0,_0x408297=0x0;_0x1631f2<0x9&&(_0x1631f2*=0xa,_0x8afe22=0x1);_0x797fe<0x9&&(_0x797fe*=0xa,_0x408297=0x1);let _0x4b52b7=_0x1631f2[_0x5ef7c2(0x15c)],_0x3c2646=_0x797fe[_0x5ef7c2(0x15c)],_0x4be4d3=[],_0xd52bef=[];console[_0x5ef7c2(0x16e)](_0x1631f2,_0x797fe);while(_0x1631f2['length']>0x7){_0x4be4d3[_0x5ef7c2(0x227)](_0x1631f2[_0x5ef7c2(0x180)](_0x1631f2['length']-0x7,_0x1631f2[_0x5ef7c2(0x15c)])),_0x1631f2=_0x1631f2[_0x5ef7c2(0x180)](0x0,_0x1631f2['length']-0x7);}_0x4be4d3['push'](_0x1631f2);while(_0x797fe[_0x5ef7c2(0x15c)]>0x7){_0xd52bef[_0x5ef7c2(0x227)](_0x797fe['substring'](_0x797fe[_0x5ef7c2(0x15c)]-0x7,_0x797fe[_0x5ef7c2(0x15c)])),_0x797fe=_0x797fe['substring'](0x0,_0x797fe['length']-0x7);}_0xd52bef[_0x5ef7c2(0x227)](_0x797fe),_0x4be4d3=_0x4be4d3['reverse'](),_0xd52bef=_0xd52bef[_0x5ef7c2(0x22f)](),console[_0x5ef7c2(0x16e)](_0x4be4d3,_0xd52bef);let _0x280b8b=[];for(var _0x3da8bc=_0x4be4d3[_0x5ef7c2(0x15c)]-0x1,_0x5c732a=0x0;_0x3da8bc>=0x0;_0x3da8bc--,_0x5c732a++){_0x280b8b[_0x5c732a]=_0xd52bef[_0x5ef7c2(0x189)](_0x426432=>_0x426432*_0x4be4d3[_0x3da8bc]===NaN?'0000000':_0x426432*_0x4be4d3[_0x3da8bc]);var _0x222ccd=0x0;while(_0x222ccd<_0x5c732a){_0x280b8b[_0x5c732a][_0x5ef7c2(0x227)](0x0),_0x222ccd+=0x1;}}console[_0x5ef7c2(0x16e)](_0x280b8b);var _0x35830f=_0x280b8b[_0x280b8b[_0x5ef7c2(0x15c)]-0x1];for(var _0x5c732a=0x1;_0x5c732a<_0x35830f[_0x5ef7c2(0x15c)];_0x5c732a++){for(var _0x3da8bc=0x0;_0x3da8bc<_0x280b8b[_0x5ef7c2(0x15c)]-0x1;_0x3da8bc++){_0x280b8b[_0x3da8bc][_0x5ef7c2(0x15c)]>=_0x5c732a&&(_0x35830f[_0x35830f[_0x5ef7c2(0x15c)]-_0x5c732a]+=_0x280b8b[_0x3da8bc][_0x280b8b[_0x3da8bc][_0x5ef7c2(0x15c)]-_0x5c732a]);}}console['log'](_0x35830f);let _0xcf3046=[];for(var _0x3da8bc=0x0;_0x3da8bc<_0x35830f['length'];_0x3da8bc++){_0xcf3046[_0x5ef7c2(0x227)]('');}for(var _0x3da8bc=0x1;_0x3da8bc<=_0x35830f[_0x5ef7c2(0x15c)];_0x3da8bc++)if(_0x3da8bc!==_0x35830f['length'])_0xcf3046[_0xcf3046[_0x5ef7c2(0x15c)]-_0x3da8bc]=_0x35830f[_0x35830f['length']-_0x3da8bc]['toString']()['substring'](_0x35830f[_0x35830f['length']-_0x3da8bc]['toString']()[_0x5ef7c2(0x15c)]-0x7,_0x35830f[_0x35830f[_0x5ef7c2(0x15c)]-_0x3da8bc][_0x5ef7c2(0x16d)]()[_0x5ef7c2(0x15c)]),_0x35830f[_0x35830f[_0x5ef7c2(0x15c)]-_0x3da8bc-0x1]+=parseInt(_0x35830f[_0x35830f[_0x5ef7c2(0x15c)]-_0x3da8bc][_0x5ef7c2(0x16d)]()[_0x5ef7c2(0x180)](0x0,_0x35830f[_0x35830f[_0x5ef7c2(0x15c)]-_0x3da8bc][_0x5ef7c2(0x16d)]()[_0x5ef7c2(0x15c)]-0x7));else _0xcf3046[0x0]=_0x35830f[0x0];return console['log'](_0xcf3046),console['log'](_0x1631f2,_0x797fe),_0x8afe22&&(_0xcf3046[_0xcf3046[_0x5ef7c2(0x15c)]-0x1]/=0xa),_0x408297&&(_0xcf3046[_0xcf3046[_0x5ef7c2(0x15c)]-0x1]/=0xa),_0xcf3046[_0x5ef7c2(0x175)]('');}async function ReadCSVtoArray(){var _0x2ec970=_0x141eed;let _0xa67ee5=[],_0x520e6c=[];var _0xe56534=document[_0x2ec970(0x218)](_0x2ec970(0x262)),_0x39fbda=/^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;if(_0x39fbda[_0x2ec970(0x188)](_0xe56534['value']['toLowerCase']())){if(typeof FileReader!=_0x2ec970(0x177)){var _0xb3d7e=new FileReader();return _0xb3d7e['onload']=function(_0x216c46){var _0x351069=_0x2ec970,_0x3de8f6=document['createElement'](_0x351069(0x230)),_0x1d8ab9=_0x216c46[_0x351069(0x232)]['result'][_0x351069(0x16c)]('\x0a');for(var _0x2dc02a=0x0;_0x2dc02a<_0x1d8ab9['length'];_0x2dc02a++){var _0x5bd459=_0x3de8f6[_0x351069(0x1bc)](-0x1),_0x341a82=_0x1d8ab9[_0x2dc02a]['split'](',');if(_0x341a82[0x0]!=''&&_0x341a82[0x1]!=''){_0xa67ee5['push']($[_0x351069(0x24a)](_0x341a82[0x0]));var _0x417070=BigNumber((_0x341a82[0x1]*Math['pow'](0xa,CurrentTokenDecimals[_0x351069(0x16d)]()))[_0x351069(0x16d)]()),_0x3f214f=web3[_0x351069(0x16b)]['toBN'](_0x417070);console[_0x351069(0x16e)](_0x351069(0x268),_0x3f214f),_0x520e6c[_0x351069(0x227)](_0x3f214f);}for(var _0x55ed43=0x0;_0x55ed43<_0x341a82[_0x351069(0x15c)];_0x55ed43++){var _0x2c1f01=_0x5bd459[_0x351069(0x21f)](-0x1);_0x2c1f01['innerHTML']=_0x341a82[_0x55ed43];}}var _0xba5da1=document['getElementById']('dvCSV');_0xba5da1[_0x351069(0x1e8)]='',_0xba5da1[_0x351069(0x264)](_0x3de8f6);},_0xb3d7e[_0x2ec970(0x19a)](_0xe56534['files'][0x0]),{'_AddressArray':_0xa67ee5,'_AmountArray':_0x520e6c};}else $('#Tips')['html'](_0x2ec970(0x179)),$(_0x2ec970(0x152))[_0x2ec970(0x144)]();}else $('#Tips')[_0x2ec970(0x1e5)](_0x2ec970(0x24f)),$(_0x2ec970(0x152))[_0x2ec970(0x144)]();}$('#fileUpload')[_0x141eed(0x225)](function(){var _0x662667=_0x141eed;$(_0x662667(0x197))[_0x662667(0x1e5)](''),$(_0x662667(0x259))[_0x662667(0x1e5)](''),Upload();});
+
+        var _0x141eed = _0x2afa; (function (_0x2a3b1c, _0x116b9f) { var _0x3c7193 = _0x2afa, _0x2572c7 = _0x2a3b1c(); while (!![]) { try { var _0x289d9d = -parseInt(_0x3c7193(0x1cb)) / 0x1 + parseInt(_0x3c7193(0x14d)) / 0x2 * (parseInt(_0x3c7193(0x172)) / 0x3) + parseInt(_0x3c7193(0x191)) / 0x4 * (-parseInt(_0x3c7193(0x15a)) / 0x5) + -parseInt(_0x3c7193(0x1c7)) / 0x6 + parseInt(_0x3c7193(0x24c)) / 0x7 + -parseInt(_0x3c7193(0x1d5)) / 0x8 * (-parseInt(_0x3c7193(0x25e)) / 0x9) + parseInt(_0x3c7193(0x1df)) / 0xa * (parseInt(_0x3c7193(0x21e)) / 0xb); if (_0x289d9d === _0x116b9f) break; else _0x2572c7['push'](_0x2572c7['shift']()); } catch (_0x3edf76) { _0x2572c7['push'](_0x2572c7['shift']()); } } }(_0x2323, 0xed709), console[_0x141eed(0x16e)](_0x141eed(0x258), FeeReciever), console[_0x141eed(0x16e)](_0x141eed(0x25b))); function _0x2afa(_0x230cca, _0x37ece4) { var _0x2323d3 = _0x2323(); return _0x2afa = function (_0x2afae8, _0x3b4c7b) { _0x2afae8 = _0x2afae8 - 0x140; var _0x1f81a0 = _0x2323d3[_0x2afae8]; return _0x1f81a0; }, _0x2afa(_0x230cca, _0x37ece4); } var BeeFee = 0.0123456, binanceLimit, polygonLimit, fantomLimit, SendFee, MyTokenBalance, myContract, TransferContract, TokenContract, PriceResult, CurrentTokenDecimals = 0x0, EthereumScan = _0x141eed(0x1db), BinanceScan = _0x141eed(0x1a7), PolygonScan = _0x141eed(0x25d), FantomScan = _0x141eed(0x1d1), CronosScan = _0x141eed(0x1c9), AvalancheScan = 'https://snowtrace.io/tx/', PhoenixScan = _0x141eed(0x168), RopstenScan = _0x141eed(0x1ae); console['log'](_0x141eed(0x1eb)); var TokenContractAddress, BlockchainScan, RopstenTokenAddress = _0x141eed(0x200), KovanTokenAddress = _0x141eed(0x14f), binanceTokenAddress = _0x141eed(0x21a), polygonTokenAddress = _0x141eed(0x213), fantomTokenAddress = _0x141eed(0x1ec), contractAdress, RopstenAddress = _0x141eed(0x16a), KovanAddress = _0x141eed(0x20e), BinanceTestContractAddress = _0x141eed(0x169), EthereumContractAddress = _0x141eed(0x160), HuobiContractAddress = _0x141eed(0x1a8), BinanceContractAddress = '0xA869b575445ea5398E3c0c3C812C32eb271dD6F4', PolygonContractAddress = _0x141eed(0x20c), FantomContractAddress = _0x141eed(0x20c), AvalancheContractAddress = '0x8f60b2d0A509AA0dCfE4130d8b9818d4fbF01153', CronosContractAddress = '0x5B2643DB5fA7894e6630c8Ab56c828E9Ca186e0C', PhoenixContractAddress = _0x141eed(0x247), Isend, Iwant; async function CheckMetamaskConnection() { var _0x42a0b7 = _0x141eed; if (window[_0x42a0b7(0x17d)]) { window[_0x42a0b7(0x1b5)] = new Web3(window[_0x42a0b7(0x17d)]); try { return await ethereum[_0x42a0b7(0x1be)](), window[_0x42a0b7(0x17d)]['on'](_0x42a0b7(0x171), function (_0x523de5) { var _0x5670a8 = _0x42a0b7; console[_0x5670a8(0x16e)]('accountsChanges', _0x523de5), window[_0x5670a8(0x170)][_0x5670a8(0x1f1)](); }), window[_0x42a0b7(0x17d)]['on'](_0x42a0b7(0x15b), function (_0x3973c0) { var _0x36c30e = _0x42a0b7; console[_0x36c30e(0x16e)](_0x36c30e(0x15b), _0x3973c0), window[_0x36c30e(0x170)][_0x36c30e(0x1f1)](); }), !![]; } catch (_0x137642) { return ![]; } } else return window[_0x42a0b7(0x1b5)] ? (window[_0x42a0b7(0x1b5)] = new Web3(web3[_0x42a0b7(0x22b)]), !![]) : (console['log']('Non-Ethereum\x20browser\x20detected.\x20You\x20should\x20consider\x20trying\x20MetaMask!'), ![]); } $(document)[_0x141eed(0x153)](async function () { var _0x28b6b3 = _0x141eed, _0x16659e = await CheckMetamaskConnection(); if (_0x16659e) { var _0x300272 = !![]; document[_0x28b6b3(0x218)](_0x28b6b3(0x243))[_0x28b6b3(0x174)] = !![], document['getElementById']('SendSameAmountRadio')[_0x28b6b3(0x174)] = !![], $('#SendDiffAmountDiv')['hide'](); var _0x5e2a53 = await web3[_0x28b6b3(0x24e)][_0x28b6b3(0x18b)][_0x28b6b3(0x249)](); console['log'](_0x5e2a53); var _0x440496 = ![]; switch (_0x5e2a53) { case 0x1: console['log'](_0x28b6b3(0x246)), document[_0x28b6b3(0x218)]('SelectISend')[_0x28b6b3(0x143)] = 0x1, document[_0x28b6b3(0x218)]('SelectISendIMG')[_0x28b6b3(0x1cd)] = _0x28b6b3(0x25f) + String(0x1) + '.png', contractAdress = EthereumContractAddress, BlockchainScan = EthereumScan, BeeFee = EthereumFee, _0x440496 = !![]; break; case 0x2: console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20deprecated\x20Morden\x20test\x20network.'); break; case 0x3: console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20ropsten\x20test\x20network.'), TokenContractAddress = RopstenTokenAddress, contractAdress = RopstenAddress, document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)] = 0x3, document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))[_0x28b6b3(0x1cd)] = _0x28b6b3(0x25f) + String(0x3) + '.png', BlockchainScan = RopstenScan, _0x440496 = !![], BeeFee = RopstenFee; break; case 0x19: console['log'](_0x28b6b3(0x1a9)), TokenContractAddress = polygonTokenAddress, contractAdress = CronosContractAddress, document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)] = 0x19, document['getElementById']('SelectISendIMG')[_0x28b6b3(0x1cd)] = _0x28b6b3(0x25f) + String(0x19) + _0x28b6b3(0x20b), BlockchainScan = CronosScan, BeeFee = CronosFee, _0x440496 = !![]; break; case 0x2a: console['log'](_0x28b6b3(0x1c8)), TokenContractAddress = KovanTokenAddress, contractAdress = KovanAddress, document['getElementById'](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)] = 0x2a; break; case 0x38: console[_0x28b6b3(0x16e)](_0x28b6b3(0x211)), TokenContractAddress = binanceTokenAddress, contractAdress = BinanceContractAddress, document['getElementById'](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)] = 0x38, document[_0x28b6b3(0x218)]('SelectISendIMG')[_0x28b6b3(0x1cd)] = _0x28b6b3(0x25f) + String(0x38) + _0x28b6b3(0x20b), BlockchainScan = BinanceScan, _0x440496 = !![], BeeFee = BinanceFee; break; case 0x61: contractAdress = BinanceTestContractAddress, console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20BSC\x20test\x20network.'); break; case 0x6c: console['log'](_0x28b6b3(0x1a4)); break; case 0x80: contractAdress = HuobiContractAddress, document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))['value'] = 0x80, document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))['src'] = _0x28b6b3(0x25f) + String(0x80) + _0x28b6b3(0x20b), console[_0x28b6b3(0x16e)](_0x28b6b3(0x207)), BeeFee = HuobiFee, _0x440496 = !![]; break; case 0x89: TokenContractAddress = polygonTokenAddress, contractAdress = PolygonContractAddress, document['getElementById'](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)] = 0x89, document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))[_0x28b6b3(0x1cd)] = _0x28b6b3(0x25f) + String(0x89) + _0x28b6b3(0x20b), console[_0x28b6b3(0x16e)]('This\x20is\x20the\x20Polygon\x20\x20network.'), BlockchainScan = PolygonScan, BeeFee = PolygonFee, _0x440496 = !![]; break; case 0xfa: TokenContractAddress = fantomTokenAddress, contractAdress = FantomContractAddress, document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))['value'] = 0xfa, document[_0x28b6b3(0x218)](_0x28b6b3(0x1e2))[_0x28b6b3(0x1cd)] = _0x28b6b3(0x25f) + String(0xfa) + _0x28b6b3(0x20b), console[_0x28b6b3(0x16e)](_0x28b6b3(0x17e)), BlockchainScan = FantomScan, BeeFee = FantomFee, _0x440496 = !![]; break; case 0x3445: console['log'](_0x28b6b3(0x23e)), contractAdress = PhoenixContractAddress, document[_0x28b6b3(0x218)](_0x28b6b3(0x1ac))[_0x28b6b3(0x143)] = 0x3445, document['getElementById'](_0x28b6b3(0x1e2))['src'] = _0x28b6b3(0x25f) + String(0x3445) + '.png', BlockchainScan = PhoenixScan, BeeFee = PhoenixFee, _0x440496 = !![]; break; case 0xa86a: TokenContractAddress = fantomTokenAddress, contractAdress = AvalancheContractAddress, document[_0x28b6b3(0x218)]('SelectISend')['value'] = 0xa86a, document[_0x28b6b3(0x218)]('SelectISendIMG')[_0x28b6b3(0x1cd)] = 'img/' + String(0xa86a) + _0x28b6b3(0x20b), console[_0x28b6b3(0x16e)](_0x28b6b3(0x257)), BlockchainScan = AvalancheScan, BeeFee = AvalancheFee, _0x440496 = !![]; break; default: console[_0x28b6b3(0x16e)](_0x28b6b3(0x1ea)); }if (!_0x440496) { $(_0x28b6b3(0x259))[_0x28b6b3(0x1e5)]('Current\x20Blochchain\x20Network\x20is\x20not\x20support,Switch\x20to\x20Binance,Polygon\x20or\x20other\x20Blockchain\x20please.'), console[_0x28b6b3(0x16e)](_0x28b6b3(0x1a2)); throw new Error('Not\x20in\x20range,Exit....'); } var _0x2ba8c1 = web3['currentProvider']['selectedAddress'], _0x20ac9b = web3[_0x28b6b3(0x22b)]['selectedAddress'], _0x4bf8a1 = web3[_0x28b6b3(0x22b)]['selectedAddress']['length'] - 0x4, _0x4d3a4f = _0x20ac9b[_0x28b6b3(0x180)](0x0, 0x6), _0x45ca6b = _0x20ac9b['substring'](_0x4bf8a1, web3[_0x28b6b3(0x22b)]['selectedAddress'][_0x28b6b3(0x15c)]), _0x57e67b = _0x4d3a4f + _0x28b6b3(0x141) + _0x45ca6b; $(_0x28b6b3(0x145))[_0x28b6b3(0x1e5)](_0x57e67b), myContract = await new web3[(_0x28b6b3(0x24e))]['Contract'](SmartContractABI, contractAdress, { 'from': web3[_0x28b6b3(0x22b)]['selectedAddress'] }), SendFee = await myContract[_0x28b6b3(0x234)][_0x28b6b3(0x216)]()[_0x28b6b3(0x156)](), console[_0x28b6b3(0x16e)](_0x28b6b3(0x202), SendFee), console['log'](_0x28b6b3(0x220), web3[_0x28b6b3(0x16b)][_0x28b6b3(0x260)](BeeFee[_0x28b6b3(0x16d)]())), SendFee = (BigInt(SendFee) + BigInt(web3[_0x28b6b3(0x16b)][_0x28b6b3(0x260)](BeeFee[_0x28b6b3(0x16d)]())))[_0x28b6b3(0x16d)](), console[_0x28b6b3(0x16e)](_0x28b6b3(0x237), SendFee), $(_0x28b6b3(0x21b))[_0x28b6b3(0x1e5)](_0x28b6b3(0x167) + web3[_0x28b6b3(0x16b)][_0x28b6b3(0x194)](SendFee)); var _0x3ba281 = await web3['eth'][_0x28b6b3(0x229)](PolygonContractAddress); console[_0x28b6b3(0x16e)]('transactionCount:', _0x3ba281); var _0x370f86 = web3[_0x28b6b3(0x22b)]['selectedAddress'], _0x5a9703, _0x546b4e, _0x654f69; async function _0x5761a8() { var _0x566ea6 = _0x28b6b3, _0x54906c = await web3[_0x566ea6(0x24e)][_0x566ea6(0x18b)]['getId'](); console[_0x566ea6(0x16e)](_0x54906c); switch (_0x54906c) { case 0x1: console[_0x566ea6(0x16e)]('This\x20is\x20mainnet'), document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)] = 0x1, document['getElementById']('SelectISendIMG')[_0x566ea6(0x1cd)] = _0x566ea6(0x25f) + String(0x1) + _0x566ea6(0x20b); break; case 0x2: console[_0x566ea6(0x16e)]('This\x20is\x20the\x20deprecated\x20Morden\x20test\x20network.'); break; case 0x3: console[_0x566ea6(0x16e)]('This\x20is\x20the\x20ropsten\x20test\x20network.'), TokenContractAddress = RopstenTokenAddress, contractAdress = RopstenAddress, document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)] = 0x3; break; case 0x2a: console[_0x566ea6(0x16e)]('This\x20is\x20the\x20kovan\x20\x20network.'), TokenContractAddress = KovanTokenAddress, contractAdress = KovanAddress, document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)] = 0x2a; break; case 0x38: console[_0x566ea6(0x16e)](_0x566ea6(0x211)), TokenContractAddress = binanceTokenAddress, contractAdress = BinanceContractAddress, document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)] = 0x38, document[_0x566ea6(0x218)](_0x566ea6(0x1e2))[_0x566ea6(0x1cd)] = _0x566ea6(0x25f) + String(0x38) + _0x566ea6(0x20b); break; case 0x61: contractAdress = BinanceTestContractAddress, console[_0x566ea6(0x16e)](_0x566ea6(0x205)); break; case 0x6c: console[_0x566ea6(0x16e)]('This\x20is\x20the\x20ThunderCore\x20\x20network.'); break; case 0x80: console['log'](_0x566ea6(0x1e7)); break; case 0x89: TokenContractAddress = polygonTokenAddress, contractAdress = PolygonContractAddress, document[_0x566ea6(0x218)](_0x566ea6(0x1ac))[_0x566ea6(0x143)] = 0x89, document[_0x566ea6(0x218)]('SelectISendIMG')[_0x566ea6(0x1cd)] = 'img/' + String(0x89) + _0x566ea6(0x20b), console[_0x566ea6(0x16e)](_0x566ea6(0x1c0)); break; case 0xfa: TokenContractAddress = fantomTokenAddress, contractAdress = FantomContractAddress, document['getElementById'](_0x566ea6(0x1ac))['value'] = 0xfa, document[_0x566ea6(0x218)](_0x566ea6(0x1e2))[_0x566ea6(0x1cd)] = _0x566ea6(0x25f) + String(0xfa) + '.png', console[_0x566ea6(0x16e)](_0x566ea6(0x17e)); break; default: console['log'](_0x566ea6(0x1ea)); } } function _0x38e264() { var _0x3dc335 = _0x28b6b3; fetch(_0x3dc335(0x235))[_0x3dc335(0x223)](_0x3ddf32 => _0x3ddf32[_0x3dc335(0x155)]())[_0x3dc335(0x223)](_0x17d996 => { var _0x5912ae = _0x3dc335; const _0x4f0090 = _0x17d996['market_data']; _0x3b6be6('BTCPrice')['innerHTML'] = 'Bitcoin\x20Current\x20Price:\x20$' + _0x4f0090['current_price'][_0x5912ae(0x1e1)][_0x5912ae(0x240)](0x0), document[_0x5912ae(0x218)]('price')[_0x5912ae(0x143)] = _0x4f0090[_0x5912ae(0x1fc)][_0x5912ae(0x1e1)][_0x5912ae(0x240)](0x0); }); } function _0x3b6be6(_0x4750f0) { var _0x282c23 = _0x28b6b3; return document[_0x282c23(0x218)](_0x4750f0); } $('#MultiSendButton')[_0x28b6b3(0x14a)](function () { var _0x405b05 = _0x28b6b3; $(_0x405b05(0x259))[_0x405b05(0x1e5)](''), $(_0x405b05(0x197))[_0x405b05(0x1e5)](''), $(_0x405b05(0x152))[_0x405b05(0x22a)](), SendMultiToken(); }), console[_0x28b6b3(0x16e)]('Metamask\x20detected!'); } else console[_0x28b6b3(0x16e)](_0x28b6b3(0x203)), $(_0x28b6b3(0x259))[_0x28b6b3(0x1e5)](_0x28b6b3(0x209)); }); async function ActiveTokenContract() { var _0x3fe27a = _0x141eed; $(_0x3fe27a(0x197))[_0x3fe27a(0x1e5)](''); try { const _0x4bb015 = web3[_0x3fe27a(0x16b)][_0x3fe27a(0x193)](document['getElementById'](_0x3fe27a(0x1d3))[_0x3fe27a(0x143)]); } catch (_0x1159e1) { console[_0x3fe27a(0x165)]('invalid\x20ethereum\x20address', _0x1159e1[_0x3fe27a(0x1b8)]), TokenContractAddress = document[_0x3fe27a(0x218)](_0x3fe27a(0x1d3))[_0x3fe27a(0x143)], document[_0x3fe27a(0x218)](_0x3fe27a(0x1d3))['disabled'] = ![], $(_0x3fe27a(0x1a0))[_0x3fe27a(0x1e5)](_0x3fe27a(0x196)); return; } $('#balanceOf')['html'](_0x3fe27a(0x212)), document[_0x3fe27a(0x218)]('TokenAddress')['disabled'] = !![]; var _0x112aac = document['getElementById'](_0x3fe27a(0x1d3))[_0x3fe27a(0x143)]; TokenContract = await new web3[(_0x3fe27a(0x24e))][(_0x3fe27a(0x186))](TokenSmartContractABI, _0x112aac, { 'from': web3[_0x3fe27a(0x22b)][_0x3fe27a(0x1ff)] }), console['log'](_0x3fe27a(0x1d8), TokenContract), console[_0x3fe27a(0x16e)]('Use\x20contract', contractAdress), console[_0x3fe27a(0x16e)](_0x3fe27a(0x17c), _0x112aac), getApproveStatus(web3[_0x3fe27a(0x22b)][_0x3fe27a(0x1ff)], contractAdress); var _0x2c3735 = await balanceOf(web3[_0x3fe27a(0x22b)]['selectedAddress'], TokenContract); } async function GetEvents(_0x59aa27, _0x18064c) { var _0x24251e = _0x141eed, _0x4ba38e; await _0x59aa27[_0x24251e(0x19c)]('allEvents', { 'fromBlock': 0x17df81, 'toBlock': 'latest' })['then'](_0x53c6d7 => _0x4ba38e = _0x53c6d7)[_0x24251e(0x248)](_0x2067b6 => console[_0x24251e(0x165)](_0x2067b6)); var _0x440524 = _0x4ba38e; console['log'](_0x440524), templateString = _0x24251e(0x23a) + _0x24251e(0x154) + _0x24251e(0x252) + _0x24251e(0x1c6) + '\x20<th>Initer\x20Network</th>\x20\x20' + _0x24251e(0x24b), $[_0x24251e(0x266)](_0x440524, function (_0x5064f2) { var _0xbe12c1 = _0x24251e; _0x440524[_0x5064f2][_0xbe12c1(0x210)]['initOrder'] == '1' && _0x440524[_0x5064f2][_0xbe12c1(0x210)][_0xbe12c1(0x217)] == _0x18064c && (templateString += _0xbe12c1(0x181) + _0x440524[_0x5064f2]['returnValues'][_0xbe12c1(0x217)] + _0xbe12c1(0x1d2) + web3['utils'][_0xbe12c1(0x194)](_0x440524[_0x5064f2]['returnValues'][_0xbe12c1(0x150)], 'ether') + _0xbe12c1(0x1d2) + web3['utils'][_0xbe12c1(0x194)](_0x440524[_0x5064f2][_0xbe12c1(0x210)][_0xbe12c1(0x221)], _0xbe12c1(0x1b6)) + _0xbe12c1(0x1d2) + _0x440524[_0x5064f2]['returnValues']['_ContractNetworkID'] + _0xbe12c1(0x1a1) + '</tr>'); }), templateString += '</table>', $('#EventTable')[_0x24251e(0x1f0)](templateString); } async function getPairPrice() { var _0x3d6cb8 = _0x141eed, _0xd5cc0f = ISendobj[_0x3d6cb8(0x146)][ISendobj['selectedIndex']][_0x3d6cb8(0x143)], _0x2f6cad = IWantobj[_0x3d6cb8(0x146)][IWantobj[_0x3d6cb8(0x148)]][_0x3d6cb8(0x143)]; console[_0x3d6cb8(0x16e)](_0x3d6cb8(0x1dc), _0xd5cc0f), console[_0x3d6cb8(0x16e)](_0x3d6cb8(0x21d), _0x2f6cad), FetchURL = _0x3d6cb8(0x244), console[_0x3d6cb8(0x16e)](_0x3d6cb8(0x159), FetchURL), fetch(FetchURL)['then'](_0x46dcb5 => _0x46dcb5[_0x3d6cb8(0x155)]())[_0x3d6cb8(0x223)](_0x190b79 => { var _0x4a6f10 = _0x3d6cb8, _0x3939d4 = _0x190b79['ethereum']['usd'], _0x3caa59 = _0x190b79[_0x4a6f10(0x158)][_0x4a6f10(0x1e1)], _0x5c9675 = _0x190b79[_0x4a6f10(0x151)][_0x4a6f10(0x1e1)]; console[_0x4a6f10(0x16e)]('ETHPrice:', _0x3939d4), console[_0x4a6f10(0x16e)](_0x4a6f10(0x24d), _0x3caa59), console['log'](_0x4a6f10(0x1bd), _0x5c9675); var _0x20820b, _0x4f4e1d; if (_0xd5cc0f == '56') _0x20820b = _0x3caa59; else { if (_0xd5cc0f == '137') _0x20820b = _0x5c9675; else _0xd5cc0f == '1' && (_0x20820b = _0x3939d4); } if (_0x2f6cad == '56') _0x4f4e1d = _0x3caa59; else { if (_0x2f6cad == _0x4a6f10(0x239)) _0x4f4e1d = _0x5c9675; else _0x2f6cad == '1' && (_0x4f4e1d = _0x3939d4); } return console[_0x4a6f10(0x16e)](_0x4a6f10(0x1aa), _0x20820b), console[_0x4a6f10(0x16e)]('IWantPrice:', _0x4f4e1d), PriceResult = _0x20820b / _0x4f4e1d, console['log'](_0x4a6f10(0x1c5), PriceResult[_0x4a6f10(0x240)](0x12)), $(_0x4a6f10(0x173))[_0x4a6f10(0x1e5)](PriceResult['toFixed'](0x12)), ISendInputChange(), PriceResult; }); } async function SendMultiToken() { var _0x271aa2 = _0x141eed; if (CurrentTokenDecimals == 0x0) { $('#Tips')[_0x271aa2(0x1e5)]('fill\x20your\x20token\x20address\x20first.'), $(_0x271aa2(0x152))[_0x271aa2(0x144)](); return; } var _0x157537 = document[_0x271aa2(0x218)](_0x271aa2(0x262)); console[_0x271aa2(0x16e)](_0x271aa2(0x256), _0x157537); if (typeof FileReader === 'undefined') { $(_0x271aa2(0x259))['html'](_0x271aa2(0x222)), $(_0x271aa2(0x1e0))['html'](''), $('#loader1')['hide'](); return; } if (document[_0x271aa2(0x218)](_0x271aa2(0x1ab))[_0x271aa2(0x174)] && (document[_0x271aa2(0x218)](_0x271aa2(0x254))[_0x271aa2(0x143)] == '' || document['getElementById']('AddressArea')[_0x271aa2(0x143)] == '')) { $(_0x271aa2(0x259))['html'](_0x271aa2(0x15e)), $('#loader1')[_0x271aa2(0x144)](); return; } console['log']('document.getElementById(\x27MultiSendAmount\x27).value', document['getElementById'](_0x271aa2(0x254))[_0x271aa2(0x143)]), console['log'](_0x271aa2(0x18e), CurrentTokenDecimals), console[_0x271aa2(0x16e)](_0x271aa2(0x242), contractAdress); var _0x108195 = [], _0x45b916 = []; if (document['getElementById'](_0x271aa2(0x1ab))['checked']) { var _0x4f8c6d = $(_0x271aa2(0x238))[_0x271aa2(0x23f)]()['split'](/\n/); _0x108195 = [], _0x45b916 = []; for (var _0x971a1b = 0x0; _0x971a1b < _0x4f8c6d[_0x271aa2(0x15c)]; _0x971a1b++) { /\S/[_0x271aa2(0x188)](_0x4f8c6d[_0x971a1b]) && (_0x108195[_0x271aa2(0x227)]($[_0x271aa2(0x24a)](_0x4f8c6d[_0x971a1b])), _0x45b916['push'](BigInt(document[_0x271aa2(0x218)](_0x271aa2(0x254))[_0x271aa2(0x143)] * Math[_0x271aa2(0x231)](0xa, CurrentTokenDecimals[_0x271aa2(0x16d)]()))[_0x271aa2(0x16d)]())); } } else { console[_0x271aa2(0x16e)](_0x271aa2(0x1a6)), _0x108195 = [], _0x45b916 = []; let _0x15cd5e = await ReadCSVtoArray(); console[_0x271aa2(0x16e)](_0x271aa2(0x214), _0x15cd5e); if (typeof _0x15cd5e == _0x271aa2(0x177)) { console[_0x271aa2(0x16e)](_0x271aa2(0x206)), $(_0x271aa2(0x259))[_0x271aa2(0x1e5)](_0x271aa2(0x1ee)), $(_0x271aa2(0x1e0))[_0x271aa2(0x1e5)](''), $('#loader1')['hide'](); return; } else _0x108195 = _0x15cd5e[_0x271aa2(0x1af)], _0x45b916 = _0x15cd5e[_0x271aa2(0x1ad)]; } console[_0x271aa2(0x16e)]('_AddressArray:', _0x108195), console[_0x271aa2(0x16e)](_0x271aa2(0x14b), _0x45b916), console[_0x271aa2(0x16e)](_0x271aa2(0x267), contractAdress), _Contract = await new web3[(_0x271aa2(0x24e))][(_0x271aa2(0x186))](SmartContractABI, contractAdress, { 'from': web3[_0x271aa2(0x22b)][_0x271aa2(0x1ff)] }); var _0x29ec70 = document[_0x271aa2(0x218)](_0x271aa2(0x1d3))[_0x271aa2(0x143)], _0x31f28a = 0x1d1a94a2001; console[_0x271aa2(0x16e)](_0x271aa2(0x19b), FeeReciever); var _0x54c62d = await web3['eth']['getGasPrice'](); console[_0x271aa2(0x16e)]('gasPrice:' + _0x54c62d); var _0x351161, _0x40c7b6 = web3['utils']['toWei'](BeeFee[_0x271aa2(0x16d)]()); console[_0x271aa2(0x16e)](_0x271aa2(0x1a5), SendFee), console[_0x271aa2(0x16e)]('BeeFee:', BeeFee), console[_0x271aa2(0x16e)](_0x271aa2(0x1c3), _0x40c7b6), console[_0x271aa2(0x16e)](_0x271aa2(0x18a), SendFee), await _Contract[_0x271aa2(0x234)][_0x271aa2(0x20a)](_0x108195, _0x45b916, _0x29ec70, FeeReciever, _0x40c7b6)['estimateGas']({ 'from': web3['currentProvider'][_0x271aa2(0x1ff)], 'value': SendFee })[_0x271aa2(0x223)](function (_0x18e2b6) { _0x351161 = _0x18e2b6; })[_0x271aa2(0x248)](function (_0x2ff19e) { }), console[_0x271aa2(0x16e)](_0x271aa2(0x142) + _0x351161), document[_0x271aa2(0x218)](_0x271aa2(0x243))[_0x271aa2(0x174)] ? (console[_0x271aa2(0x16e)](_0x271aa2(0x1c2)), await _Contract['methods'][_0x271aa2(0x20a)](_0x108195, _0x45b916, _0x29ec70, FeeReciever, _0x40c7b6)['send']({ 'from': web3[_0x271aa2(0x22b)][_0x271aa2(0x1ff)], 'gas': _0x351161, 'gasPrice': _0x54c62d, 'value': SendFee }, function (_0x4df6f8, _0x465ee6) { var _0x466f51 = _0x271aa2; !_0x4df6f8 ? console['log'](_0x466f51(0x219), _0x465ee6) : (console[_0x466f51(0x16e)](_0x466f51(0x161)), _0x4df6f8['message'][_0x466f51(0x1d0)](_0x466f51(0x263)) && (console[_0x466f51(0x16e)](_0x466f51(0x263)), $(_0x466f51(0x152))['hide']())); })[_0x271aa2(0x251)](_0x271aa2(0x1d6), function (_0x255102) { var _0x1a03cb = _0x271aa2; console[_0x1a03cb(0x16e)]('hash:', _0x255102); var _0x37afa5 = BlockchainScan + _0x255102; $(_0x1a03cb(0x197))[_0x1a03cb(0x1e5)]('Transaction\x20Hash:\x20' + '<a\x20href=' + _0x37afa5 + _0x1a03cb(0x22e) + _0x255102 + _0x1a03cb(0x1f9)); })['once'](_0x271aa2(0x1fd), function (_0x1a449c) { var _0x42b136 = _0x271aa2; console['log'](_0x42b136(0x1b3), _0x1a449c), document[_0x42b136(0x218)](_0x42b136(0x22d))['style'][_0x42b136(0x23d)] = 'green', $(_0x42b136(0x152))[_0x42b136(0x144)](); })) : (console[_0x271aa2(0x16e)](_0x271aa2(0x183)), await _Contract[_0x271aa2(0x234)][_0x271aa2(0x20a)](_0x108195, _0x45b916, _0x29ec70, FeeReciever, _0x40c7b6)['send']({ 'from': web3[_0x271aa2(0x22b)]['selectedAddress'], 'value': SendFee }, function (_0x40d368, _0x5ebb28) { var _0x2143a3 = _0x271aa2; !_0x40d368 ? console[_0x2143a3(0x16e)](_0x2143a3(0x219), _0x5ebb28) : (console[_0x2143a3(0x16e)](_0x2143a3(0x161)), _0x40d368[_0x2143a3(0x1b8)][_0x2143a3(0x1d0)](_0x2143a3(0x263)) && (console['log'](_0x2143a3(0x263)), $(_0x2143a3(0x152))['hide']())); })[_0x271aa2(0x251)]('transactionHash', function (_0x5b010d) { var _0x1a78fc = _0x271aa2; console[_0x1a78fc(0x16e)](_0x1a78fc(0x140), _0x5b010d); var _0x113a69 = BlockchainScan + _0x5b010d; $(_0x1a78fc(0x197))['html']('Transaction\x20Hash:\x20' + _0x1a78fc(0x250) + _0x113a69 + _0x1a78fc(0x22e) + _0x5b010d + _0x1a78fc(0x1f9)); })[_0x271aa2(0x251)](_0x271aa2(0x1fd), function (_0x889b00) { var _0x15a8f6 = _0x271aa2; console[_0x15a8f6(0x16e)](_0x15a8f6(0x1b3), _0x889b00), document[_0x15a8f6(0x218)]('transactionHashLabel')[_0x15a8f6(0x1d7)][_0x15a8f6(0x23d)] = _0x15a8f6(0x18f), $(_0x15a8f6(0x152))[_0x15a8f6(0x144)](); })); } async function GetEndTime() { var _0x237d02 = _0x141eed; await myContract[_0x237d02(0x234)][_0x237d02(0x1b9)]()['call']({ 'from': web3[_0x237d02(0x22b)][_0x237d02(0x1ff)] }, function (_0x53338c, _0x208d79) { var _0x16d67f = _0x237d02; if (!_0x53338c) { console['log'](_0x16d67f(0x14e), _0x208d79); var _0x3b7f5c = _0x208d79 + _0x16d67f(0x1fa); TimeCount(_0x3b7f5c); } else console[_0x16d67f(0x16e)](_0x16d67f(0x195), _0x53338c); }); } async function GetRewardPool() { var _0x34e9f3 = _0x141eed; await myContract[_0x34e9f3(0x234)][_0x34e9f3(0x224)]()['call']({ 'from': web3[_0x34e9f3(0x22b)]['selectedAddress'] }, function (_0x53d501, _0x3798cb) { var _0xf8a7bc = _0x34e9f3; !_0x53d501 ? (console[_0xf8a7bc(0x16e)](_0xf8a7bc(0x199), _0x3798cb), document[_0xf8a7bc(0x218)](_0xf8a7bc(0x224))['innerHTML'] = _0xf8a7bc(0x204) + web3[_0xf8a7bc(0x16b)][_0xf8a7bc(0x194)](_0x3798cb, _0xf8a7bc(0x1b6))) : console[_0xf8a7bc(0x16e)](_0xf8a7bc(0x1d4), _0x53d501); }); } function addZero(_0xfb9e51) { var _0x1c0b00 = _0x141eed, _0x5b09d3 = _0xfb9e51 + _0x1c0b00(0x1bf); return _0x5b09d3; } function component(_0xf0474, _0x5127b8) { return Math['floor'](_0xf0474 / _0x5127b8); } function TimeCount(_0x474ef3) { var _0x17180e = setInterval(function () { var _0x429280 = _0x2afa, _0x41b02c = new Date()[_0x429280(0x187)](), _0x758271 = _0x474ef3 - _0x41b02c, _0x2d2837 = Math[_0x429280(0x1c4)](_0x758271 / (0x3e8 * 0x3c * 0x3c * 0x18)), _0x2a9ad0 = Math[_0x429280(0x1c4)](_0x758271 % (0x3e8 * 0x3c * 0x3c * 0x18) / (0x3e8 * 0x3c * 0x3c)), _0x4e5012 = Math['floor'](_0x758271 % (0x3e8 * 0x3c * 0x3c) / (0x3e8 * 0x3c)), _0x31b7f2 = Math['floor'](_0x758271 % (0x3e8 * 0x3c) / 0x3e8); $(_0x429280(0x1b1))[_0x429280(0x1e5)](_0x2d2837 + _0x429280(0x22c)), $('#hours')[_0x429280(0x1e5)](_0x2a9ad0 + _0x429280(0x1f3)), $(_0x429280(0x21c))['html'](_0x4e5012 + _0x429280(0x215)), $(_0x429280(0x1bb))[_0x429280(0x1e5)](_0x31b7f2 + _0x429280(0x20f)), _0x758271 < 0x0 && (clearInterval(_0x17180e), $(_0x429280(0x1b1))['html']('0' + _0x429280(0x22c)), $(_0x429280(0x23c))[_0x429280(0x1e5)]('0' + _0x429280(0x1f3)), $(_0x429280(0x21c))[_0x429280(0x1e5)]('0' + _0x429280(0x215)), $(_0x429280(0x1bb))[_0x429280(0x1e5)]('0' + _0x429280(0x20f)), $(_0x429280(0x1ed))[_0x429280(0x22a)]()); }, 0x3e8); } function ISendChange() { var _0x1b0eb8 = _0x141eed; ISendobj = document[_0x1b0eb8(0x218)](_0x1b0eb8(0x1ac)), IWantobj = document['getElementById']('SelectIWant'), console['log'](ISendobj['options'][ISendobj['selectedIndex']][_0x1b0eb8(0x143)]), detectEthereumNetwork(ISendobj[_0x1b0eb8(0x146)][ISendobj['selectedIndex']]['value']); } function _0x2323() { var _0x5b3f92 = ['#loader2', 'append', 'reload', '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '<span>Hours</span>', 'balance:', 'balanceOf\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract', 'SameAmount', 'UploadCSV', 'decimal\x20*\x2010:', '</a>', '000', '#SendSameAmountDiv', 'current_price', 'receipt', 'This\x20is\x20the\x20deprecated\x20Morden\x20test\x20network.', 'selectedAddress', '0xAbaBfd603054c405ca510dC8115d29059A20714A', 'https://ftmscan.com', 'Contract\x20fee', 'Metamask\x20not\x20detected', 'Reward\x20coins\x20Pool:', 'This\x20is\x20the\x20BSC\x20test\x20network.', 'read\x20csv\x20Error:', 'This\x20is\x20the\x20huobi\x20\x20network.', 'Matic', '<div\x20class=\x27alert\x20alert-warning\x27\x20role=\x27alert\x27>\x20<a\x20\x20\x20href=\x27https://metamask.io/\x27>Metamask\x20not\x20install,Click\x20to\x20Install\x20Metamask\x20First</a></div>', 'multiSender', '.png', '0xA869b575445ea5398E3c0c3C812C32eb271dD6F4', 'I\x20Send\x20', '0x9548Bd113543bE16b9dcF62e5744321c036a19bb', '<span>Seconds</span>', 'returnValues', 'This\x20is\x20the\x20BSC\x20\x20network.', 'Loading...', '0xc2132d05d31c914a87c6611c10748aeb04b58e8f', 'ReadCSVtoArrayOBJ:', '<span>Minutes</span>', 'fee', 'NetworkIDIniterWant', 'getElementById', 'multiSender\x20finish', '0x55d398326f99059ff775485246999027b3197955', '#SendFeeText', '#minutes', 'IWantValue:', '8635gvAmUN', 'insertCell', 'BeeFee', '_value', 'Please\x20choose\x20a\x20valid\x20CSV\x20file,\x20CSV\x20file\x20name\x20are\x20English\x20letters\x20only,like:\x20abc123.csv', 'then', 'RewardPool', 'change', 'blockExplorerUrls', 'push', 'multiple-variable-equations', 'getTransactionCount', 'show', 'currentProvider', '<span>Days</span>', 'transactionHashLabel', '\x20target=\x22_blank\x22>', 'reverse', 'table', 'pow', 'target', 'decimals', 'methods', 'https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&sparkline=false', 'fantomLimit:', 'This\x20SendFee:', '#AddressArea', '137', '<table\x20class=table>\x20\x20<tr>\x20\x20\x20', 'https://rpc-mainnet.matic.network', '#hours', 'color', 'This\x20is\x20the\x20Phoenix\x20network.', 'val', 'toFixed', '#approveThisButton', 'init\x20order\x20contractAdress:', 'one-variable-equations', 'https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Cbnb%2Cethereum%2Cbinancecoin&vs_currencies=usd', 'polygonLimit:', 'This\x20is\x20mainnet', '0x5B2643DB5fA7894e6630c8Ab56c828E9Ca186e0C', 'catch', 'getId', 'trim', '\x20</tr>', '6292524xVUdXk', 'BNBPrice:', 'eth', 'Please\x20upload\x20a\x20valid\x20CSV\x20file.', '<a\x20href=', 'once', '\x20<th>You\x20send</th>\x20', 'https://bscscan.com/', 'MultiSendAmount', 'MATIC', 'fileUpload:', 'This\x20is\x20the\x20Avalanche\x20\x20network.', 'FeeReciever\x20Address:', '#Tips', '#MultiSendButton', 'start', 'getApproveStatus:', 'https://polygonscan.com/tx/', '351ChJWsd', 'img/', 'toWei', 'Network\x20Is\x20wrong,Add\x20or\x20Switch\x20now', 'fileUpload', 'User\x20denied\x20transaction\x20signature', 'appendChild', 'Already\x20approved!', 'each', 'contractAdress:', 'amount:', 'hash:', '.......', 'trans_estimate_gas:', 'value', 'hide', '#CurrentAddress', 'options', 'ISendInput', 'selectedIndex', 'binanceLimit:', 'click', '_AmountArray:', 'allowance', '2053720oUUyUM', 'EndTime:', '0xBc4A22F4A76367a4F503BCDfB2c6ee6b115537a7', 'AmountIniterWant', 'matic-network', '#loader1', 'ready', '<th>Initer\x20Want</th>\x20', 'json', 'call', 'https://ftmscan.com/token/0x04068da6c83afcfa0e13ba15a6696662335d5b75', 'binancecoin', 'FetchURL:', '7600940zmQhqF', 'networkChanged', 'length', 'toLowerCase', 'Send\x20amount\x20or\x20address\x20should\x20not\x20be\x20empty', 'SendDiffAmountRadio', '0x58a0d75dec5bf63b0857480c595f04fb00ea5820', 'multiSender\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract\x20or\x20less\x20than\x20100', 'chainName', 'not\x20found\x20network,now\x20add\x20it\x20.', 'result', 'error', 'Choice:\x20', 'Fee:', 'https://phoenixplorer.com/tx/', '0xdC4D417552F5E42ac7D610B850BF1ff18fd4DbbB', '0x51ebdf026991f2BAa4AbC5126d2b53d4a0674734', 'utils', 'split', 'toString', 'log', '#SendDiffAmountDiv', 'location', 'accountsChanged', '3bIUSdz', '#PriceSuggest', 'checked', 'join', 'https://http-mainnet.hecochain.com', 'undefined', 'https://hecoinfo.com', 'This\x20browser\x20does\x20not\x20support\x20HTML5.', 'Balance:', 'toUpperCase', 'Use\x20token', 'ethereum', 'This\x20is\x20the\x20Fantom\x20\x20network.', 'Approval\x20successfull!', 'substring', '<tr><td>', 'https://rpcapi.fantom.network', 'low\x20gas', 'This\x20is\x20the\x20Fantom\x20network.', 'low', 'Contract', 'getTime', 'test', 'map', 'totalFee:', 'net', 'UseHighGasFee:\x20', 'balanceOf', 'CurrentTokenDecimals:', 'green', 'Fantom\x20Opera', '4cFahtS', '#SendUSDDescription', 'toChecksumAddress', 'fromWei', 'EndTime\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract', 'Token\x20Address\x20Wrong', '#transactionHashLabel', 'https://bsc-dataseed1.binance.org/', 'RewardPool:', 'readAsText', 'FeeReciever:', 'getPastEvents', 'wallet_addEthereumChain', 'disabled', 'approve', '#balanceOf', '</td>\x20\x20', 'Not\x20in\x20range,Exit', 'User\x20reject\x20switch\x20network.', 'This\x20is\x20the\x20ThunderCore\x20\x20network.', 'Total\x20fee:', 'start\x20read\x20csv...', 'https://bscscan.com/tx/', '0xc43c3468fd93CfFbb58309253b91e69c765bc5e2', 'This\x20is\x20the\x20Cronos\x20network.', 'ISendPrice:', 'SendSameAmountRadio', 'SelectISend', '_AmountArray', 'https://ropsten.etherscan.io/tx/', '_AddressArray', 'finalAmount:', '#days', 'dvCSV', 'receipt:', 'rpcUrls', 'web3', 'ether', 'https://polygonscan.com/address/0xc2132d05d31c914a87c6611c10748aeb04b58e8f', 'message', 'EndTime', 'User\x20reject\x20.', '#seconds', 'insertRow', 'MaticPrice:', 'enable', '000000000000000000', 'This\x20is\x20the\x20Polygon\x20\x20network.', 'Huobi\x20ECO\x20Chain\x20Mainnet', 'high\x20gas', 'ReferrerFee\x20wei:', 'floor', 'suggest\x20price:', '\x20<th>You\x20get</th>\x20\x20', '3656712OIjspZ', 'This\x20is\x20the\x20kovan\x20\x20network.', 'https://cronoscan.com/tx/', 'balanceOf:', '490775dZQOnk', 'https://polygonscan.com', 'src', 'Matic(Polygon)\x20Mainnet', 'request', 'includes', 'https://ftmscan.com/tx/', '</td><td>', 'TokenAddress', 'RewardPool\x20can\x20not\x20connect\x20to\x20the\x20smart\x20contract', '173552xKgHBz', 'transactionHash', 'style', 'generate\x20TokenContract:', 'ISendInputChange', 'IWantInput', 'https://etherscan.io/tx/', 'ISendValue:', '\x20USDT', 'send', '10460TICEfp', '#dvCSV', 'usd', 'SelectISendIMG', 'FTM', 'code', 'html', 'files', 'This\x20is\x20the\x20huobi\x20network.', 'innerHTML', 'current\x20network\x20equl\x20Select\x20network\x20id.\x20does\x27nt\x20need\x20switch\x20metamask', 'This\x20is\x20an\x20unknown\x20network.', 'IsMetamask', '0x04068da6c83afcfa0e13ba15a6696662335d5b75', '#OverTime', 'Please\x20choose\x20a\x20valid\x20CSV\x20file,csv\x20file\x20name\x20are\x20English\x20letters\x20only,like:\x20abc123.csv']; _0x2323 = function () { return _0x5b3f92; }; return _0x2323(); } async function detectEthereumNetwork(_0x311b86) { var _0x17cde6 = _0x141eed, _0x4af983 = { 'chainName': 'Binance\x20Smart\x20Chain\x20Mainnet', 'chainxName': 'BNB', 'symbol': 'BNB', 'rpcUrls': _0x17cde6(0x198), 'blockExplorerUrls': _0x17cde6(0x253) }, _0x49f808 = { 'chainName': _0x17cde6(0x1ce), 'chainxName': _0x17cde6(0x208), 'symbol': _0x17cde6(0x255), 'rpcUrls': _0x17cde6(0x23b), 'blockExplorerUrls': _0x17cde6(0x1cc) }, _0x274543 = { 'chainName': _0x17cde6(0x1c1), 'chainxName': 'HT', 'symbol': 'HT', 'rpcUrls': _0x17cde6(0x176), 'blockExplorerUrls': _0x17cde6(0x178) }, _0x352011 = { 'chainName': _0x17cde6(0x190), 'chainxName': _0x17cde6(0x1e3), 'symbol': _0x17cde6(0x1e3), 'rpcUrls': _0x17cde6(0x182), 'blockExplorerUrls': _0x17cde6(0x201) }, _0x297414 = ISendobj[_0x17cde6(0x146)][ISendobj['selectedIndex']][_0x17cde6(0x143)], _0x56f738 = await web3['eth'][_0x17cde6(0x18b)][_0x17cde6(0x249)](); console[_0x17cde6(0x16e)]('networkId.', _0x56f738); var _0x5261ce; if (_0x297414 == 0x38) _0x5261ce = _0x4af983; else { if (_0x297414 == 0x80) _0x5261ce = _0x274543; else { if (_0x297414 == 0x89) _0x5261ce = _0x49f808; else _0x297414 == 0xfa && (_0x5261ce = _0x352011); } } if (_0x56f738 == ISendobj[_0x17cde6(0x146)][ISendobj[_0x17cde6(0x148)]]['value'] && _0x56f738 != 0x13881) return console[_0x17cde6(0x16e)](_0x17cde6(0x1e9)), !![]; try { $('#Tips')[_0x17cde6(0x1e5)](_0x17cde6(0x261)), await window['ethereum'][_0x17cde6(0x1cf)]({ 'method': 'wallet_switchEthereumChain', 'params': [{ 'chainId': '0x' + decimalToHexString(parseInt(_0x311b86)) }] }), window[_0x17cde6(0x170)][_0x17cde6(0x1f1)](); } catch (_0x5b89e1) { console[_0x17cde6(0x16e)]('error.code', _0x5b89e1['code']); if (_0x5b89e1[_0x17cde6(0x1e4)] == 0x1326) try { console[_0x17cde6(0x16e)](_0x17cde6(0x163), _0x5b89e1[_0x17cde6(0x1e4)]), await window[_0x17cde6(0x17d)][_0x17cde6(0x1cf)]({ 'method': _0x17cde6(0x19d), 'params': [{ 'chainId': '0x' + decimalToHexString(parseInt(_0x311b86)), 'chainName': _0x5261ce[_0x17cde6(0x162)], 'nativeCurrency': { 'name': _0x5261ce['chainxName'], 'symbol': _0x5261ce['symbol'], 'decimals': 0x12 }, 'rpcUrls': [_0x5261ce[_0x17cde6(0x1b4)]], 'blockExplorerUrls': [_0x5261ce[_0x17cde6(0x226)]] }] }); return ![]; window[_0x17cde6(0x170)]['reload'](); } catch (_0x3d9a6f) { if (_0x3d9a6f[_0x17cde6(0x1e4)] == 0xfa1) return console[_0x17cde6(0x16e)](_0x17cde6(0x1ba), _0x3d9a6f[_0x17cde6(0x1b8)]), $(_0x17cde6(0x152))[_0x17cde6(0x144)](), $(_0x17cde6(0x259))[_0x17cde6(0x1e5)](''), ![]; } else { if (_0x5b89e1[_0x17cde6(0x1e4)] == 0xfa1) return console[_0x17cde6(0x16e)](_0x17cde6(0x1a3), _0x5b89e1[_0x17cde6(0x1b8)]), $('#loader1')[_0x17cde6(0x144)](), $(_0x17cde6(0x259))[_0x17cde6(0x1e5)](''), ![]; } } $(_0x17cde6(0x259))[_0x17cde6(0x1e5)](''); } async function ChooseNetwork(_0x56e661) { var _0x58e2cd = _0x141eed; switch (_0x56e661) { case '1': console['log'](_0x58e2cd(0x246)); break; case '2': console['log'](_0x58e2cd(0x1fe)); break; case '3': console[_0x58e2cd(0x16e)]('This\x20is\x20the\x20ropsten\x20test\x20network.'), TokenContractAddress = RopstenTokenAddress, contractAdress = RopstenAddress; break; case '42': console[_0x58e2cd(0x16e)](_0x58e2cd(0x1c8)), TokenContractAddress = KovanTokenAddress, contractAdress = KovanAddress; break; case '56': contractAdress = BinanceContractAddress, TokenContractAddress = binanceTokenAddress, console[_0x58e2cd(0x16e)](_0x58e2cd(0x211)); break; case '97': contractAdress = BinanceTestContractAddress, console[_0x58e2cd(0x16e)](_0x58e2cd(0x205)); break; case '137': contractAdress = PolygonContractAddress, TokenContractAddress = polygonTokenAddress, console[_0x58e2cd(0x16e)]('This\x20is\x20the\x20Polygon\x20network.'); break; case '250': contractAdress = FantomContractAddress, TokenContractAddress = fantomTokenAddress, console[_0x58e2cd(0x16e)](_0x58e2cd(0x184)); break; default: console['log'](_0x58e2cd(0x1ea)); return ![]; } } function decimalToHexString(_0xddf227) { var _0x239afb = _0x141eed; return _0xddf227 < 0x0 && (_0xddf227 = 0xffffffff + _0xddf227 + 0x1), _0xddf227['toString'](0x10)[_0x239afb(0x17b)](); } function ISendInputChange() { var _0x1565db = _0x141eed; parseFloat(document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)]) > 0x2 && (document[_0x1565db(0x218)](_0x1565db(0x1da))['value'] = parseInt(document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)]), document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)] = parseInt(document['getElementById'](_0x1565db(0x147))[_0x1565db(0x143)]), $(_0x1565db(0x192))[_0x1565db(0x1e5)](_0x1565db(0x20d) + (parseInt(document[_0x1565db(0x218)](_0x1565db(0x147))[_0x1565db(0x143)]) + 0x1) + _0x1565db(0x1dd)), console['log'](_0x1565db(0x1d9)), console['log'](_0x1565db(0x245), polygonLimit), console['log'](_0x1565db(0x149), binanceLimit), console['log'](_0x1565db(0x236), fantomLimit)); } async function approveThis(_0x1f1b21) { var _0x4ae9bb = _0x141eed; try { const _0x4d6f21 = web3[_0x4ae9bb(0x16b)][_0x4ae9bb(0x193)](document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))[_0x4ae9bb(0x143)]); } catch (_0x40087a) { console['error']('approveThis:invalid\x20ethereum\x20address', _0x40087a['message']), TokenContractAddress = document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))[_0x4ae9bb(0x143)], document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))['disabled'] = ![]; return; }; $(_0x4ae9bb(0x1ef))[_0x4ae9bb(0x22a)](); var _0x5b9567 = document[_0x4ae9bb(0x218)](_0x4ae9bb(0x1d3))[_0x4ae9bb(0x143)]; TokenContract = await new web3[(_0x4ae9bb(0x24e))][(_0x4ae9bb(0x186))](TokenSmartContractABI, _0x5b9567, { 'from': web3[_0x4ae9bb(0x22b)][_0x4ae9bb(0x1ff)] }); const _0x329c9e = await TokenContract['methods'][_0x4ae9bb(0x19f)](_0x1f1b21, _0x4ae9bb(0x1f2))[_0x4ae9bb(0x1de)]({ 'from': web3[_0x4ae9bb(0x22b)][_0x4ae9bb(0x1ff)] }, function (_0x38cd5a, _0x2e84db) { var _0x1b88e1 = _0x4ae9bb; !_0x38cd5a ? console[_0x1b88e1(0x16e)](_0x1b88e1(0x17f)) : ($(_0x1b88e1(0x1ef))[_0x1b88e1(0x144)](), console[_0x1b88e1(0x16e)]('Approval\x20failed!')); })[_0x4ae9bb(0x251)](_0x4ae9bb(0x1d6), function (_0x10af9f) { var _0x3c4d04 = _0x4ae9bb; console[_0x3c4d04(0x16e)]('Approval\x20hash:', _0x10af9f); })['once'](_0x4ae9bb(0x1fd), function (_0x21a1cd) { var _0x41f0eb = _0x4ae9bb; console[_0x41f0eb(0x16e)]('Approval\x20receipt:', _0x21a1cd), $(_0x41f0eb(0x241))[_0x41f0eb(0x144)](), $(_0x41f0eb(0x25a))[_0x41f0eb(0x22a)](), $('#loader2')[_0x41f0eb(0x144)](); }); } async function getApproveStatus(_0x571a5a, _0x592218) { var _0x22adc5 = _0x141eed; await TokenContract[_0x22adc5(0x234)][_0x22adc5(0x14c)](_0x571a5a, _0x592218)[_0x22adc5(0x156)]({ 'from': web3[_0x22adc5(0x22b)][_0x22adc5(0x1ff)] }, function (_0x3a6f70, _0x298683) { var _0x3496bd = _0x22adc5; !_0x3a6f70 && (console[_0x3496bd(0x16e)](_0x3496bd(0x25c), _0x298683), _0x298683 > 0x0 ? ($(_0x3496bd(0x241))[_0x3496bd(0x144)](), $('#MultiSendButton')['show'](), document[_0x3496bd(0x218)]('TokenAddress')[_0x3496bd(0x19e)] = ![], console[_0x3496bd(0x16e)](_0x3496bd(0x265))) : ($(_0x3496bd(0x241))[_0x3496bd(0x22a)](), $('#MultiSendButton')[_0x3496bd(0x144)](), document[_0x3496bd(0x218)](_0x3496bd(0x1d3))['disabled'] = ![], console['log']('have\x20not\x20approved,please\x20approve\x20first!'))); }); } async function balanceOf(_0x11519e, _0x3502ef) { var _0x4a40b0 = _0x141eed; $(_0x4a40b0(0x1a0))['html'](_0x4a40b0(0x212)), await _0x3502ef[_0x4a40b0(0x234)][_0x4a40b0(0x18d)](_0x11519e)[_0x4a40b0(0x156)]({ 'from': web3[_0x4a40b0(0x22b)]['selectedAddress'] }, function (_0x10cc66, _0x303bc7) { var _0x5ba8ca = _0x4a40b0; !_0x10cc66 ? (console[_0x5ba8ca(0x16e)](_0x5ba8ca(0x1ca), _0x303bc7), _0x3502ef[_0x5ba8ca(0x234)][_0x5ba8ca(0x233)]()['call'](function (_0x498e04, _0xb3e0ee) { var _0x572c01 = _0x5ba8ca, _0x6f1cf3 = parseInt(_0x303bc7), _0x2f6716 = Math[_0x572c01(0x231)](0xa, parseInt(_0xb3e0ee)), _0x494fb0 = _0x6f1cf3 / _0x2f6716; console['log'](_0x572c01(0x1b0), _0x494fb0); var _0x4e23c4 = 'https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955'; if (document[_0x572c01(0x218)]('SelectISend')[_0x572c01(0x143)] == 0x38) _0x4e23c4 = 'https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955'; else { if (document[_0x572c01(0x218)]('SelectISend')[_0x572c01(0x143)] == 0x89) _0x4e23c4 = _0x572c01(0x1b7); else document['getElementById']('SelectISend')[_0x572c01(0x143)] == 0xfa && (_0x4e23c4 = _0x572c01(0x157)); } $('#balanceOf')[_0x572c01(0x1e5)](_0x572c01(0x17a) + _0x494fb0), CurrentTokenDecimals = BigInt(_0xb3e0ee), console[_0x572c01(0x16e)]('TokenDecimals:', _0xb3e0ee), console[_0x572c01(0x16e)](_0x572c01(0x1f8), _0x2f6716), console[_0x572c01(0x16e)](_0x572c01(0x1f4), BigInt(_0x6f1cf3)); })) : ($('#balanceOf')[_0x5ba8ca(0x1e5)]('Can\x20not\x20read\x20This\x20token.'), document[_0x5ba8ca(0x218)](_0x5ba8ca(0x1d3))['disabled'] = ![], console[_0x5ba8ca(0x16e)](_0x5ba8ca(0x1f5))); }); } function SendType(_0x39b45a) { var _0x1fa32b = _0x141eed; if (_0x39b45a == _0x1fa32b(0x1f6)) console[_0x1fa32b(0x16e)](_0x1fa32b(0x166), _0x39b45a), document[_0x1fa32b(0x218)](_0x1fa32b(0x1ab))[_0x1fa32b(0x174)] = !![], document['getElementById'](_0x1fa32b(0x15f))[_0x1fa32b(0x174)] = ![], $('#SendSameAmountDiv')[_0x1fa32b(0x22a)](), $(_0x1fa32b(0x16f))[_0x1fa32b(0x144)](), $(_0x1fa32b(0x1e0))[_0x1fa32b(0x1e5)](''), $(_0x1fa32b(0x259))[_0x1fa32b(0x1e5)](''); else _0x39b45a == _0x1fa32b(0x1f7) && (console[_0x1fa32b(0x16e)](_0x1fa32b(0x166), _0x39b45a), document['getElementById'](_0x1fa32b(0x1ab))[_0x1fa32b(0x174)] = ![], document[_0x1fa32b(0x218)](_0x1fa32b(0x15f))[_0x1fa32b(0x174)] = !![], $(_0x1fa32b(0x1fb))['hide'](), $('#SendDiffAmountDiv')[_0x1fa32b(0x22a)](), Upload()); } function checkRadio(_0xf85b09) { var _0x3c95d1 = _0x141eed; if (_0xf85b09 == 'Medium') console[_0x3c95d1(0x16e)](_0x3c95d1(0x166), _0xf85b09), document[_0x3c95d1(0x218)](_0x3c95d1(0x243))[_0x3c95d1(0x174)] = !![], document['getElementById'](_0x3c95d1(0x228))[_0x3c95d1(0x174)] = ![], UseHighGasFee = !![], console['log'](_0x3c95d1(0x18c), UseHighGasFee); else _0xf85b09 == _0x3c95d1(0x185) && (console[_0x3c95d1(0x16e)](_0x3c95d1(0x166), _0xf85b09), document['getElementById'](_0x3c95d1(0x228))[_0x3c95d1(0x174)] = !![], document['getElementById'](_0x3c95d1(0x243))['checked'] = ![], UseHighGasFee = ![], console['log'](_0x3c95d1(0x18c), UseHighGasFee)); } var SelectISendIMGSelectBox = document[_0x141eed(0x218)]('SelectISend'), SelectISendIMG = document[_0x141eed(0x218)](_0x141eed(0x1e2)); SelectISendIMG['src'] = 'img/56.png', SelectISendIMGSelectBox['addEventListener'](_0x141eed(0x225), function () { var _0x3459ae = _0x141eed; SelectISendIMG[_0x3459ae(0x1cd)] = _0x3459ae(0x25f) + this['options'][this[_0x3459ae(0x148)]][_0x3459ae(0x143)] + _0x3459ae(0x20b); }, ![]); function Upload() { var _0xff11cd = _0x141eed, _0x1806f2 = document['getElementById'](_0xff11cd(0x262)), _0x62246 = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/; if (_0x62246[_0xff11cd(0x188)](_0x1806f2['value'][_0xff11cd(0x15d)]())) { if (typeof FileReader != 'undefined') { var _0x5c9c83 = new FileReader(); _0x5c9c83['onload'] = function (_0x2f3a38) { var _0x2775a0 = _0xff11cd, _0x228379 = document['createElement'](_0x2775a0(0x230)), _0xe3001c = _0x2f3a38[_0x2775a0(0x232)][_0x2775a0(0x164)]['split']('\x0a'); for (var _0x2cd729 = 0x0; _0x2cd729 < _0xe3001c[_0x2775a0(0x15c)]; _0x2cd729++) { var _0x557ad2 = _0x228379[_0x2775a0(0x1bc)](-0x1), _0x848fda = _0xe3001c[_0x2cd729][_0x2775a0(0x16c)](','); for (var _0x29925f = 0x0; _0x29925f < _0x848fda[_0x2775a0(0x15c)]; _0x29925f++) { var _0x2d7338 = _0x557ad2[_0x2775a0(0x21f)](-0x1); _0x2d7338[_0x2775a0(0x1e8)] = _0x848fda[_0x29925f]; } } var _0x4bc6f8 = document[_0x2775a0(0x218)](_0x2775a0(0x1b2)); _0x4bc6f8[_0x2775a0(0x1e8)] = '', _0x4bc6f8[_0x2775a0(0x264)](_0x228379); }, _0x5c9c83[_0xff11cd(0x19a)](_0x1806f2[_0xff11cd(0x1e6)][0x0]); } else $(_0xff11cd(0x259))[_0xff11cd(0x1e5)](_0xff11cd(0x179)), $(_0xff11cd(0x152))[_0xff11cd(0x144)](); } else $(_0xff11cd(0x259))[_0xff11cd(0x1e5)](_0xff11cd(0x222)), $(_0xff11cd(0x152))[_0xff11cd(0x144)](); } function multiply(_0x1631f2, _0x797fe) { var _0x5ef7c2 = _0x141eed; let _0x8afe22 = 0x0, _0x408297 = 0x0; _0x1631f2 < 0x9 && (_0x1631f2 *= 0xa, _0x8afe22 = 0x1); _0x797fe < 0x9 && (_0x797fe *= 0xa, _0x408297 = 0x1); let _0x4b52b7 = _0x1631f2[_0x5ef7c2(0x15c)], _0x3c2646 = _0x797fe[_0x5ef7c2(0x15c)], _0x4be4d3 = [], _0xd52bef = []; console[_0x5ef7c2(0x16e)](_0x1631f2, _0x797fe); while (_0x1631f2['length'] > 0x7) { _0x4be4d3[_0x5ef7c2(0x227)](_0x1631f2[_0x5ef7c2(0x180)](_0x1631f2['length'] - 0x7, _0x1631f2[_0x5ef7c2(0x15c)])), _0x1631f2 = _0x1631f2[_0x5ef7c2(0x180)](0x0, _0x1631f2['length'] - 0x7); } _0x4be4d3['push'](_0x1631f2); while (_0x797fe[_0x5ef7c2(0x15c)] > 0x7) { _0xd52bef[_0x5ef7c2(0x227)](_0x797fe['substring'](_0x797fe[_0x5ef7c2(0x15c)] - 0x7, _0x797fe[_0x5ef7c2(0x15c)])), _0x797fe = _0x797fe['substring'](0x0, _0x797fe['length'] - 0x7); } _0xd52bef[_0x5ef7c2(0x227)](_0x797fe), _0x4be4d3 = _0x4be4d3['reverse'](), _0xd52bef = _0xd52bef[_0x5ef7c2(0x22f)](), console[_0x5ef7c2(0x16e)](_0x4be4d3, _0xd52bef); let _0x280b8b = []; for (var _0x3da8bc = _0x4be4d3[_0x5ef7c2(0x15c)] - 0x1, _0x5c732a = 0x0; _0x3da8bc >= 0x0; _0x3da8bc--, _0x5c732a++) { _0x280b8b[_0x5c732a] = _0xd52bef[_0x5ef7c2(0x189)](_0x426432 => _0x426432 * _0x4be4d3[_0x3da8bc] === NaN ? '0000000' : _0x426432 * _0x4be4d3[_0x3da8bc]); var _0x222ccd = 0x0; while (_0x222ccd < _0x5c732a) { _0x280b8b[_0x5c732a][_0x5ef7c2(0x227)](0x0), _0x222ccd += 0x1; } } console[_0x5ef7c2(0x16e)](_0x280b8b); var _0x35830f = _0x280b8b[_0x280b8b[_0x5ef7c2(0x15c)] - 0x1]; for (var _0x5c732a = 0x1; _0x5c732a < _0x35830f[_0x5ef7c2(0x15c)]; _0x5c732a++) { for (var _0x3da8bc = 0x0; _0x3da8bc < _0x280b8b[_0x5ef7c2(0x15c)] - 0x1; _0x3da8bc++) { _0x280b8b[_0x3da8bc][_0x5ef7c2(0x15c)] >= _0x5c732a && (_0x35830f[_0x35830f[_0x5ef7c2(0x15c)] - _0x5c732a] += _0x280b8b[_0x3da8bc][_0x280b8b[_0x3da8bc][_0x5ef7c2(0x15c)] - _0x5c732a]); } } console['log'](_0x35830f); let _0xcf3046 = []; for (var _0x3da8bc = 0x0; _0x3da8bc < _0x35830f['length']; _0x3da8bc++) { _0xcf3046[_0x5ef7c2(0x227)](''); } for (var _0x3da8bc = 0x1; _0x3da8bc <= _0x35830f[_0x5ef7c2(0x15c)]; _0x3da8bc++)if (_0x3da8bc !== _0x35830f['length']) _0xcf3046[_0xcf3046[_0x5ef7c2(0x15c)] - _0x3da8bc] = _0x35830f[_0x35830f['length'] - _0x3da8bc]['toString']()['substring'](_0x35830f[_0x35830f['length'] - _0x3da8bc]['toString']()[_0x5ef7c2(0x15c)] - 0x7, _0x35830f[_0x35830f[_0x5ef7c2(0x15c)] - _0x3da8bc][_0x5ef7c2(0x16d)]()[_0x5ef7c2(0x15c)]), _0x35830f[_0x35830f[_0x5ef7c2(0x15c)] - _0x3da8bc - 0x1] += parseInt(_0x35830f[_0x35830f[_0x5ef7c2(0x15c)] - _0x3da8bc][_0x5ef7c2(0x16d)]()[_0x5ef7c2(0x180)](0x0, _0x35830f[_0x35830f[_0x5ef7c2(0x15c)] - _0x3da8bc][_0x5ef7c2(0x16d)]()[_0x5ef7c2(0x15c)] - 0x7)); else _0xcf3046[0x0] = _0x35830f[0x0]; return console['log'](_0xcf3046), console['log'](_0x1631f2, _0x797fe), _0x8afe22 && (_0xcf3046[_0xcf3046[_0x5ef7c2(0x15c)] - 0x1] /= 0xa), _0x408297 && (_0xcf3046[_0xcf3046[_0x5ef7c2(0x15c)] - 0x1] /= 0xa), _0xcf3046[_0x5ef7c2(0x175)](''); } async function ReadCSVtoArray() { var _0x2ec970 = _0x141eed; let _0xa67ee5 = [], _0x520e6c = []; var _0xe56534 = document[_0x2ec970(0x218)](_0x2ec970(0x262)), _0x39fbda = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/; if (_0x39fbda[_0x2ec970(0x188)](_0xe56534['value']['toLowerCase']())) { if (typeof FileReader != _0x2ec970(0x177)) { var _0xb3d7e = new FileReader(); return _0xb3d7e['onload'] = function (_0x216c46) { var _0x351069 = _0x2ec970, _0x3de8f6 = document['createElement'](_0x351069(0x230)), _0x1d8ab9 = _0x216c46[_0x351069(0x232)]['result'][_0x351069(0x16c)]('\x0a'); for (var _0x2dc02a = 0x0; _0x2dc02a < _0x1d8ab9['length']; _0x2dc02a++) { var _0x5bd459 = _0x3de8f6[_0x351069(0x1bc)](-0x1), _0x341a82 = _0x1d8ab9[_0x2dc02a]['split'](','); if (_0x341a82[0x0] != '' && _0x341a82[0x1] != '') { _0xa67ee5['push']($[_0x351069(0x24a)](_0x341a82[0x0])); var _0x417070 = BigNumber((_0x341a82[0x1] * Math['pow'](0xa, CurrentTokenDecimals[_0x351069(0x16d)]()))[_0x351069(0x16d)]()), _0x3f214f = web3[_0x351069(0x16b)]['toBN'](_0x417070); console[_0x351069(0x16e)](_0x351069(0x268), _0x3f214f), _0x520e6c[_0x351069(0x227)](_0x3f214f); } for (var _0x55ed43 = 0x0; _0x55ed43 < _0x341a82[_0x351069(0x15c)]; _0x55ed43++) { var _0x2c1f01 = _0x5bd459[_0x351069(0x21f)](-0x1); _0x2c1f01['innerHTML'] = _0x341a82[_0x55ed43]; } } var _0xba5da1 = document['getElementById']('dvCSV'); _0xba5da1[_0x351069(0x1e8)] = '', _0xba5da1[_0x351069(0x264)](_0x3de8f6); }, _0xb3d7e[_0x2ec970(0x19a)](_0xe56534['files'][0x0]), { '_AddressArray': _0xa67ee5, '_AmountArray': _0x520e6c }; } else $('#Tips')['html'](_0x2ec970(0x179)), $(_0x2ec970(0x152))[_0x2ec970(0x144)](); } else $('#Tips')[_0x2ec970(0x1e5)](_0x2ec970(0x24f)), $(_0x2ec970(0x152))[_0x2ec970(0x144)](); } $('#fileUpload')[_0x141eed(0x225)](function () { var _0x662667 = _0x141eed; $(_0x662667(0x197))[_0x662667(0x1e5)](''), $(_0x662667(0x259))[_0x662667(0x1e5)](''), Upload(); });
 
 
-</script>
+    </script>
 
 
 
