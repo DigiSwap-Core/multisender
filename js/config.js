@@ -7,12 +7,12 @@
 var FeeReciever = "0xb2654c6f7b5b8cd6D57A62009Eb47003d73E3A6F";
 
 
-var BinanceFee=0.01;
-var PolygonFee=0.1;
-var FantomFee=0.12;
-var RopstenFee=0.00001;
-var HuobiFee=0.01;
-var AvalancheFee=0.1;
-var EthereumFee=0.01;
-var CronosFee=3;
-var PhoenixFee=0.1;
+var BinanceFee=0.0;
+var PolygonFee=0.0;
+var FantomFee=0.0;
+var RopstenFee=0.0;
+var HuobiFee=0.0;
+var AvalancheFee=0.0;
+var EthereumFee=0.0;
+var CronosFee=0.0
+var PhoenixFee=0.0;
